@@ -27,59 +27,79 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "6a258d89f53f8114d822affd15f920d0"
+    "revision": "cd60764050d03bb3d2ea9e23c3f11483"
   },
   {
     "url": "artikel.html",
-    "revision": "7417281b315d78ddbbfa7aed83293105"
+    "revision": "8feef1a92cd5e4774c51d29c75c24552"
   },
   {
-    "url": "assets/css/0.styles.bc609e6e.css",
-    "revision": "e8df766da45dd81e6542d3bb268b1fe6"
+    "url": "artikel/1.html",
+    "revision": "ded964bab42437071ba5cbc7336def0f"
+  },
+  {
+    "url": "artikel/2.html",
+    "revision": "c468c13a7bd2af32c44c88031cffd8a9"
+  },
+  {
+    "url": "assets/css/0.styles.d1afac7c.css",
+    "revision": "50e25d388ba8ce4402a700ad6b56d217"
   },
   {
     "url": "assets/img/search.83621669.svg",
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.109b11ec.js",
-    "revision": "92103a5c7af957c428e7361d9f00b487"
+    "url": "assets/js/10.244961f6.js",
+    "revision": "facf54934e152833c352f3a7713c5666"
   },
   {
-    "url": "assets/js/2.46905bb2.js",
-    "revision": "bdce736e793627192242bf474d58fcb3"
+    "url": "assets/js/11.4978eb61.js",
+    "revision": "6b721aa71773b353f73d50c936d6b9ab"
   },
   {
-    "url": "assets/js/3.3fa906df.js",
-    "revision": "bfbafe46dd17ceaf130205f4ad1d37db"
+    "url": "assets/js/12.d18906d8.js",
+    "revision": "a67b28db0797259c2d3f9d4ec05dbb47"
   },
   {
-    "url": "assets/js/4.7fe12137.js",
-    "revision": "9b6d4f69ab1e1d2e732fa4f18ff52938"
+    "url": "assets/js/13.77a1f50d.js",
+    "revision": "5dd94e8aed25c199df3aa8c803ebe18d"
   },
   {
-    "url": "assets/js/5.753e5c04.js",
-    "revision": "cc1500a500edfe925e9125a29e0952b5"
+    "url": "assets/js/2.d1d0c64b.js",
+    "revision": "63ffec71984f93e7f5ad420ebe23dc52"
   },
   {
-    "url": "assets/js/6.8878878c.js",
-    "revision": "5cde71c9c5b5879c940a757ad05ee59e"
+    "url": "assets/js/3.a4eb7406.js",
+    "revision": "720f35d00d8e60f51dbaee708d259ef6"
   },
   {
-    "url": "assets/js/7.e3f2f305.js",
-    "revision": "5b9dd7743a7017069c7b47745c1794b2"
+    "url": "assets/js/4.533e5a42.js",
+    "revision": "1c334534c766838531422e4c29529b5a"
   },
   {
-    "url": "assets/js/8.b71c03bf.js",
-    "revision": "4bf81b8c085c5286804eb9a756da5274"
+    "url": "assets/js/5.6b530dcc.js",
+    "revision": "0d2b24cf2d849f9d9e8528d8bce2ddeb"
   },
   {
-    "url": "assets/js/9.ceed4495.js",
-    "revision": "616f6f11c5c670c8770ba92246c1be45"
+    "url": "assets/js/6.938660c2.js",
+    "revision": "976f5084962de9f6cf06eab270ddaae6"
   },
   {
-    "url": "assets/js/app.ef7b7897.js",
-    "revision": "d3d03a0ebe66207fb75fb8089128d241"
+    "url": "assets/js/7.96955003.js",
+    "revision": "d31c97b59d5ec9f08cc6830e2e318a1e"
+  },
+  {
+    "url": "assets/js/8.5f8117b4.js",
+    "revision": "c1119483679c66de393c78a963264344"
+  },
+  {
+    "url": "assets/js/9.504a8370.js",
+    "revision": "16c5ee9a20b01cac048349ad17845526"
+  },
+  {
+    "url": "assets/js/app.17fce2c5.js",
+    "revision": "9e838ca3118e40d5dca0909012160947"
   },
   {
     "url": "awal.png",
@@ -91,7 +111,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "10e84aaafe69197e39326d8d1993f98d"
+    "revision": "63e12984dce05b24cbb2f4500ec34c5c"
   },
   {
     "url": "logo/antron-01.png",
@@ -143,7 +163,7 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "2ac5a56a020879f7f574c226299d28a4"
+    "revision": "66d320fb5684d26fa5988811b96cc6bf"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
