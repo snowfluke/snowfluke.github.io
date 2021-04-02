@@ -27,35 +27,35 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "94d3107ebca0bf079a39be74369bc6b5"
+    "revision": "ab8fa9d065d82d3cd4ccd07aa418ff2f"
   },
   {
     "url": "artikel.html",
-    "revision": "82e17b151c1cfad0bb3664ddbb97bc91"
+    "revision": "89413313e8534f39a1249dd9788bb747"
   },
   {
     "url": "artikel/2.html",
-    "revision": "e60d9e0506f3f8f340efb1289475999b"
+    "revision": "2f91bfaf77782c9eeeef6ba67c4d5b0b"
   },
   {
     "url": "artikel/3.html",
-    "revision": "5fb4c5c9bb18816d21783d06c3afc150"
+    "revision": "8ee03af4d1618a9c4291c271f8859dfb"
   },
   {
     "url": "artikel/belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "28d9e2a4dc73917f9ce1909610d27570"
+    "revision": "f0a69f260482933b12a4024b389207aa"
   },
   {
-    "url": "assets/css/0.styles.6eec9dc6.css",
-    "revision": "d63196b7fab519e50fcf1f9b3825804d"
+    "url": "assets/css/0.styles.6a4b0e61.css",
+    "revision": "de23260b49613a9b58dd10adc624e323"
   },
   {
     "url": "assets/img/search.83621669.svg",
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.3694608a.js",
-    "revision": "d570cffebfb773037e1bfa0b7ded7df4"
+    "url": "assets/js/10.3bde99f6.js",
+    "revision": "98ecd9ea37d5824f1c48c15586957b6c"
   },
   {
     "url": "assets/js/11.0710ecb0.js",
@@ -86,12 +86,12 @@ self.__precacheManifest = [
     "revision": "ada82acf0a8453845a6ac058bc7a56c6"
   },
   {
-    "url": "assets/js/4.f6d799c1.js",
-    "revision": "830fdc591c45fc58c0be5eb0c7770504"
+    "url": "assets/js/4.c32d14d8.js",
+    "revision": "d0b2a913ce5611f74dc536664d652f5a"
   },
   {
-    "url": "assets/js/5.32f49f3f.js",
-    "revision": "f49adf61eedb0ed6bd718c7093df2173"
+    "url": "assets/js/5.f3d9d90b.js",
+    "revision": "13ca8270c941622d111c1d708d402f5f"
   },
   {
     "url": "assets/js/6.ad67ac40.js",
@@ -106,12 +106,12 @@ self.__precacheManifest = [
     "revision": "697b91a6505ad7b1b55412a2fbba4c8d"
   },
   {
-    "url": "assets/js/9.94ffd073.js",
-    "revision": "b5de6d41eef119ff3cb66c5a84422c3c"
+    "url": "assets/js/9.748a5d5f.js",
+    "revision": "69ba7ae2f130b924f16bfd61d1c2d0d5"
   },
   {
-    "url": "assets/js/app.b63fdc83.js",
-    "revision": "67797b02bb5c6c23fc3adae7d6c3899e"
+    "url": "assets/js/app.fa7d3f5e.js",
+    "revision": "76776dae511d63946d9e17889fcc0a44"
   },
   {
     "url": "awal.png",
@@ -123,7 +123,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0f5d62d6d4113ee34e1e68847a56ff83"
+    "revision": "4839365d08c74b4ecc9321bfd529ca3a"
   },
   {
     "url": "logo/antron-01.png",
@@ -175,7 +175,11 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "17574bd0894530dc3a47d1e8cd5006bd"
+    "revision": "3a680fc571c76fcbb9557f6c60ae5217"
+  },
+  {
+    "url": "snowfluke.svg",
+    "revision": "d1a367bae69d1f46daa1a803d6be05c9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
