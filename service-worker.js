@@ -27,19 +27,19 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "cd60764050d03bb3d2ea9e23c3f11483"
+    "revision": "ec8ac89a600a753b60d1d84b96a7a9fd"
   },
   {
     "url": "artikel.html",
-    "revision": "8feef1a92cd5e4774c51d29c75c24552"
+    "revision": "a6e68deb9adfcc5c11f9cd4547b6d120"
   },
   {
     "url": "artikel/1.html",
-    "revision": "ded964bab42437071ba5cbc7336def0f"
+    "revision": "c105903d7093624f8244c72a7e57a7a8"
   },
   {
     "url": "artikel/2.html",
-    "revision": "c468c13a7bd2af32c44c88031cffd8a9"
+    "revision": "65f9c718eef84d13abc06e5e29fa3b7d"
   },
   {
     "url": "assets/css/0.styles.d1afac7c.css",
@@ -50,8 +50,8 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.244961f6.js",
-    "revision": "facf54934e152833c352f3a7713c5666"
+    "url": "assets/js/10.505f84d7.js",
+    "revision": "c5761c88166888cd97845eec30f86828"
   },
   {
     "url": "assets/js/11.4978eb61.js",
@@ -90,16 +90,16 @@ self.__precacheManifest = [
     "revision": "d31c97b59d5ec9f08cc6830e2e318a1e"
   },
   {
-    "url": "assets/js/8.5f8117b4.js",
-    "revision": "c1119483679c66de393c78a963264344"
+    "url": "assets/js/8.0a5803c7.js",
+    "revision": "385d90ad8f69921523cb41127b52cb7e"
   },
   {
-    "url": "assets/js/9.504a8370.js",
-    "revision": "16c5ee9a20b01cac048349ad17845526"
+    "url": "assets/js/9.06d1e618.js",
+    "revision": "00a5296df73c77b9bee1c235e663dd37"
   },
   {
-    "url": "assets/js/app.17fce2c5.js",
-    "revision": "9e838ca3118e40d5dca0909012160947"
+    "url": "assets/js/app.c104d637.js",
+    "revision": "b2d320014e93251122a1ead954d79c7d"
   },
   {
     "url": "awal.png",
@@ -111,7 +111,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "63e12984dce05b24cbb2f4500ec34c5c"
+    "revision": "36df28300f9ca1a4951e1af64d3d3abe"
   },
   {
     "url": "logo/antron-01.png",
@@ -163,7 +163,7 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "66d320fb5684d26fa5988811b96cc6bf"
+    "revision": "e0d68b213055f451aeb24f2c201c1ba6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
