@@ -27,63 +27,71 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "43723f6d146060332aa9594b04c7dcc5"
+    "revision": "94d3107ebca0bf079a39be74369bc6b5"
   },
   {
     "url": "artikel.html",
-    "revision": "ca328fae33670d7b7e1dd1184810a92a"
-  },
-  {
-    "url": "artikel/1.html",
-    "revision": "195df94b89c2b256abec3a7e4c0dbb2a"
+    "revision": "82e17b151c1cfad0bb3664ddbb97bc91"
   },
   {
     "url": "artikel/2.html",
-    "revision": "3cabad94de6d906650854b365065d411"
+    "revision": "e60d9e0506f3f8f340efb1289475999b"
   },
   {
-    "url": "assets/css/0.styles.6a4b0e61.css",
-    "revision": "de23260b49613a9b58dd10adc624e323"
+    "url": "artikel/3.html",
+    "revision": "5fb4c5c9bb18816d21783d06c3afc150"
+  },
+  {
+    "url": "artikel/belajar-dengan-teknik-seperti-nelayan.html",
+    "revision": "28d9e2a4dc73917f9ce1909610d27570"
+  },
+  {
+    "url": "assets/css/0.styles.6eec9dc6.css",
+    "revision": "d63196b7fab519e50fcf1f9b3825804d"
   },
   {
     "url": "assets/img/search.83621669.svg",
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.8c416432.js",
-    "revision": "98ecd9ea37d5824f1c48c15586957b6c"
+    "url": "assets/js/10.3694608a.js",
+    "revision": "d570cffebfb773037e1bfa0b7ded7df4"
   },
   {
-    "url": "assets/js/11.af06c16a.js",
-    "revision": "d6913fb7237bdeff8f70da5a1f2036fb"
+    "url": "assets/js/11.0710ecb0.js",
+    "revision": "c1c57619c4fa243fd380b0adcd83f75d"
   },
   {
-    "url": "assets/js/12.8df12f01.js",
-    "revision": "f6cc6cd5a23eac0cf839937bd250ece3"
+    "url": "assets/js/12.93b76a64.js",
+    "revision": "a7d30d42381c7ec0ebe69d8b9e54956a"
   },
   {
-    "url": "assets/js/13.6b3586b2.js",
-    "revision": "fe13a7bf1adb72915281fe22342260f2"
+    "url": "assets/js/13.4c12bb75.js",
+    "revision": "b79a4dfdb2f043147eab67f73a1b7b21"
   },
   {
-    "url": "assets/js/14.46606704.js",
-    "revision": "5524f52312aaf9f6e65563ef783eea53"
+    "url": "assets/js/14.1351e1be.js",
+    "revision": "3f92cda8a973559871f6d811ced07e87"
+  },
+  {
+    "url": "assets/js/15.470ae69c.js",
+    "revision": "b9341d66b9ec9884780e83839a4ac5ea"
   },
   {
     "url": "assets/js/2.d732bae5.js",
     "revision": "41e74d6bbe088c569cfcc5476b159352"
   },
   {
-    "url": "assets/js/3.32c07843.js",
-    "revision": "3507c918d9092f6870a976114ded3526"
+    "url": "assets/js/3.4057f28c.js",
+    "revision": "ada82acf0a8453845a6ac058bc7a56c6"
   },
   {
-    "url": "assets/js/4.b919cae9.js",
-    "revision": "379217c5e1c3fc40277a3d4b75814b81"
+    "url": "assets/js/4.f6d799c1.js",
+    "revision": "830fdc591c45fc58c0be5eb0c7770504"
   },
   {
-    "url": "assets/js/5.f3d9d90b.js",
-    "revision": "13ca8270c941622d111c1d708d402f5f"
+    "url": "assets/js/5.32f49f3f.js",
+    "revision": "f49adf61eedb0ed6bd718c7093df2173"
   },
   {
     "url": "assets/js/6.ad67ac40.js",
@@ -98,12 +106,12 @@ self.__precacheManifest = [
     "revision": "697b91a6505ad7b1b55412a2fbba4c8d"
   },
   {
-    "url": "assets/js/9.a253d7f9.js",
-    "revision": "26ba86862fb4385fe6287fbe0a58330c"
+    "url": "assets/js/9.94ffd073.js",
+    "revision": "b5de6d41eef119ff3cb66c5a84422c3c"
   },
   {
-    "url": "assets/js/app.1808ce88.js",
-    "revision": "3acebd0869a1cfbbece370821215f6e7"
+    "url": "assets/js/app.b63fdc83.js",
+    "revision": "67797b02bb5c6c23fc3adae7d6c3899e"
   },
   {
     "url": "awal.png",
@@ -115,7 +123,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "81eed1d33ce0f5a0f2b075ea29c1d987"
+    "revision": "0f5d62d6d4113ee34e1e68847a56ff83"
   },
   {
     "url": "logo/antron-01.png",
@@ -167,7 +175,7 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "c4300b26468347f4c3dce2e4041c78c2"
+    "revision": "17574bd0894530dc3a47d1e8cd5006bd"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
