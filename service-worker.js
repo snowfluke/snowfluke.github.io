@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "38f6235bcf8756da10c5dc829953c30c"
+    "revision": "809b29bad94f3e440c69b73883eb6c09"
   },
   {
-    "url": "assets/css/0.styles.92153596.css",
-    "revision": "e96cc44c26f1a8a03c4e654429289e95"
+    "url": "assets/css/0.styles.2c20c2b5.css",
+    "revision": "6c28a465c0b7a34bf38019fbb360947b"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -54,7 +54,7 @@ self.__precacheManifest = [
     "revision": "dac3ed59c316107b46ec07caf99e700f"
   },
   {
-    "url": "assets/js/3.009b31b6.js",
+    "url": "assets/js/3.85b58764.js",
     "revision": "27b1a23439585b076945d69b831c2b39"
   },
   {
@@ -82,12 +82,12 @@ self.__precacheManifest = [
     "revision": "9787f29cc8c89d1bb1ec11d78bf1df84"
   },
   {
-    "url": "assets/js/app.2e8c2e49.js",
-    "revision": "3a90b236ced5e40aef314ba04098d9bc"
+    "url": "assets/js/app.28bf962f.js",
+    "revision": "51f2f740698a9a970a1a92d1c9cbb42c"
   },
   {
     "url": "index.html",
-    "revision": "1398487605fb2c1dcf4dd60c87b40b4d"
+    "revision": "1223f5252dee45a42d9c573485c86807"
   },
   {
     "url": "logo/antron-01.png",
@@ -139,7 +139,7 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "3090528022580a524d06ffae3e2dc1ed"
+    "revision": "7fb415f86b337c5cca86b2a85f078783"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
