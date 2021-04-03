@@ -27,23 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "ab8fa9d065d82d3cd4ccd07aa418ff2f"
-  },
-  {
-    "url": "artikel.html",
-    "revision": "89413313e8534f39a1249dd9788bb747"
-  },
-  {
-    "url": "artikel/2.html",
-    "revision": "2f91bfaf77782c9eeeef6ba67c4d5b0b"
-  },
-  {
-    "url": "artikel/3.html",
-    "revision": "8ee03af4d1618a9c4291c271f8859dfb"
-  },
-  {
-    "url": "artikel/belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "f0a69f260482933b12a4024b389207aa"
+    "revision": "7a057730651458ce1f8890471dc5f640"
   },
   {
     "url": "assets/css/0.styles.6a4b0e61.css",
@@ -54,40 +38,24 @@ self.__precacheManifest = [
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.3bde99f6.js",
-    "revision": "98ecd9ea37d5824f1c48c15586957b6c"
+    "url": "assets/js/10.4b195d46.js",
+    "revision": "1578a2f5aa2369d92e733d00a092d5ab"
   },
   {
-    "url": "assets/js/11.0710ecb0.js",
-    "revision": "c1c57619c4fa243fd380b0adcd83f75d"
+    "url": "assets/js/11.720b9080.js",
+    "revision": "79e41a19b9f83dc4131b17d63aff1848"
   },
   {
-    "url": "assets/js/12.93b76a64.js",
-    "revision": "a7d30d42381c7ec0ebe69d8b9e54956a"
+    "url": "assets/js/2.9d2150e9.js",
+    "revision": "fdf7f34386db58ed4cf4242089cf85d5"
   },
   {
-    "url": "assets/js/13.4c12bb75.js",
-    "revision": "b79a4dfdb2f043147eab67f73a1b7b21"
+    "url": "assets/js/3.2de0d475.js",
+    "revision": "56c21ec9b2735ee550a61a513ee7b098"
   },
   {
-    "url": "assets/js/14.1351e1be.js",
-    "revision": "3f92cda8a973559871f6d811ced07e87"
-  },
-  {
-    "url": "assets/js/15.470ae69c.js",
-    "revision": "b9341d66b9ec9884780e83839a4ac5ea"
-  },
-  {
-    "url": "assets/js/2.d732bae5.js",
-    "revision": "41e74d6bbe088c569cfcc5476b159352"
-  },
-  {
-    "url": "assets/js/3.4057f28c.js",
-    "revision": "ada82acf0a8453845a6ac058bc7a56c6"
-  },
-  {
-    "url": "assets/js/4.c32d14d8.js",
-    "revision": "d0b2a913ce5611f74dc536664d652f5a"
+    "url": "assets/js/4.af2f8b77.js",
+    "revision": "ca43db42346b2c2062732440e43033e2"
   },
   {
     "url": "assets/js/5.f3d9d90b.js",
@@ -106,12 +74,12 @@ self.__precacheManifest = [
     "revision": "697b91a6505ad7b1b55412a2fbba4c8d"
   },
   {
-    "url": "assets/js/9.748a5d5f.js",
-    "revision": "69ba7ae2f130b924f16bfd61d1c2d0d5"
+    "url": "assets/js/9.94ffd073.js",
+    "revision": "b5de6d41eef119ff3cb66c5a84422c3c"
   },
   {
-    "url": "assets/js/app.fa7d3f5e.js",
-    "revision": "76776dae511d63946d9e17889fcc0a44"
+    "url": "assets/js/app.b0ac85c7.js",
+    "revision": "b000345780093e55b9db1a3bf3ff79de"
   },
   {
     "url": "awal.png",
@@ -123,7 +91,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "4839365d08c74b4ecc9321bfd529ca3a"
+    "revision": "89fbff66c079881c367c65a18d3f81fc"
   },
   {
     "url": "logo/antron-01.png",
@@ -175,7 +143,7 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "3a680fc571c76fcbb9557f6c60ae5217"
+    "revision": "799b112f9349fa3e679440b782331db0"
   },
   {
     "url": "snowfluke.svg",
