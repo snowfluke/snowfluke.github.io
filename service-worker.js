@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "1717d10f0f77ca5aae9caca80d2e4a40"
+    "revision": "d217954c4a4ce418f6f42871b1913265"
   },
   {
-    "url": "assets/css/0.styles.32938114.css",
-    "revision": "840d475f6b6e15b3004d0421892f03f2"
+    "url": "assets/css/0.styles.10de41e5.css",
+    "revision": "71265491266f44baa31d7e7b2f50f08c"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -46,28 +46,28 @@ self.__precacheManifest = [
     "revision": "3cdfca37f779c6201feff427a4512972"
   },
   {
-    "url": "assets/js/12.479bd4a9.js",
-    "revision": "72e497f632d98cad4f0438ddef8cfc83"
+    "url": "assets/js/12.d3043d8e.js",
+    "revision": "e9d40196791dd83825dc9483e7561f0a"
   },
   {
-    "url": "assets/js/13.651ae092.js",
-    "revision": "dd7dbfe2df905e4e35a65d6434334fbb"
+    "url": "assets/js/13.e3825392.js",
+    "revision": "1deae81fef6e6d80232b15af834ff6a8"
   },
   {
-    "url": "assets/js/14.f9a8c8c9.js",
-    "revision": "bfe68064b6e76d3ac8024d566f4704be"
+    "url": "assets/js/14.f7d6b441.js",
+    "revision": "2e4bfaa037c1fd470eaa9fb8b072facf"
   },
   {
-    "url": "assets/js/15.f01f4d0d.js",
-    "revision": "66fe2729f09229e7b8f722545c85f688"
+    "url": "assets/js/15.76eeb462.js",
+    "revision": "aacb3844d00e39f3153f7130def7e6f4"
   },
   {
-    "url": "assets/js/16.3ebc4709.js",
-    "revision": "3db8acc107ba669dcb2de98cb4709ec5"
+    "url": "assets/js/16.4f19e3b6.js",
+    "revision": "72050cfd1334696b749f9aed49408c44"
   },
   {
-    "url": "assets/js/17.9289ca09.js",
-    "revision": "833854a40d756d23c090bc99cb5c6ebd"
+    "url": "assets/js/17.d7ba1481.js",
+    "revision": "4f1ff770a40239e397939c38833f246c"
   },
   {
     "url": "assets/js/18.efa0fbba.js",
@@ -86,12 +86,12 @@ self.__precacheManifest = [
     "revision": "a39abdb16e5f1930e4e9c2df4dacd3a1"
   },
   {
-    "url": "assets/js/5.cd3d4f99.js",
-    "revision": "385f6b7f7395dc679cb8687543632a7f"
+    "url": "assets/js/5.5cdfc8ab.js",
+    "revision": "d5ab28dc7921f3ff04a6d4bf55a17fab"
   },
   {
-    "url": "assets/js/6.193133bc.js",
-    "revision": "5f885a3882e5468cadb22868aa24a951"
+    "url": "assets/js/6.4352aacc.js",
+    "revision": "7fc06c8c1331199b68433c571ec962bb"
   },
   {
     "url": "assets/js/7.a4ea3186.js",
@@ -106,16 +106,16 @@ self.__precacheManifest = [
     "revision": "d148e00ab3e554b412c25546d1c1b921"
   },
   {
-    "url": "assets/js/app.d82f1cfe.js",
-    "revision": "df2f56275f3a0bebaad5cd39ff2fb6ee"
+    "url": "assets/js/app.5c94734c.js",
+    "revision": "09ad43f1be8ad1615661a0e2cfa83c83"
   },
   {
     "url": "blog.html",
-    "revision": "6200d90218efb17ac987d8e1074da4d9"
+    "revision": "14c9c2cf4b5bdf7261db3718b0744d98"
   },
   {
     "url": "index.html",
-    "revision": "953e0ca2dd57842b8fa6a37160552723"
+    "revision": "31378a0cc043a21b9c682fca6312612e"
   },
   {
     "url": "logo/antron-01.png",
@@ -167,15 +167,15 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "26840080656ba0696275cfc7589bc5d8"
+    "revision": "d57a78799929e492d388d56477d4d5b1"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "100e3788c5b9f5bddc39604f7f34ee95"
+    "revision": "03bb19a5f57d7797ee6971a4ce49bca3"
   },
   {
-    "url": "post/2021-04-04-lorem-ipsum.html",
-    "revision": "043444242261a9d9248d76e0dde7541e"
+    "url": "post/2021-04-07-seni-tidak-mengharapkan-apapun.html",
+    "revision": "846a6b39ce112cd32e1fc8cbfb5e5ad5"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
