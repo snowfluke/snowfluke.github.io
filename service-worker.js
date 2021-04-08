@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "0be591d95bf9c78fb241ea65475e6f54"
+    "revision": "ce47c398e7f329a99623098ccd840516"
   },
   {
     "url": "assets/css/0.styles.59f3543c.css",
@@ -54,12 +54,12 @@ self.__precacheManifest = [
     "revision": "36361d9485cb6e131998d089a8eb2618"
   },
   {
-    "url": "assets/js/14.2c583ca7.js",
-    "revision": "99daa6f3345dac8cd5272c877fc46fc7"
+    "url": "assets/js/14.454730b1.js",
+    "revision": "812d33a09ed089f13933bf4158316c07"
   },
   {
-    "url": "assets/js/15.843b9b34.js",
-    "revision": "4a2c80764880280272a136ca314689a1"
+    "url": "assets/js/15.440b9efd.js",
+    "revision": "7e1cdbd3dc5c059cf4a6ead315811ec9"
   },
   {
     "url": "assets/js/16.9de3c9f2.js",
@@ -122,16 +122,16 @@ self.__precacheManifest = [
     "revision": "7c077ac472c7fe776faed1859ee184ec"
   },
   {
-    "url": "assets/js/app.4f987179.js",
-    "revision": "242c4f50b493f7fffc0eea2f69e5eda9"
+    "url": "assets/js/app.2ab77341.js",
+    "revision": "504dfd7fa12c8de2fcffa4779526325f"
   },
   {
     "url": "blog.html",
-    "revision": "7c2056617bb803c17c64764d3718dc25"
+    "revision": "4b36c4ccc2963ee4e5cdcd194edb9c9b"
   },
   {
     "url": "index.html",
-    "revision": "98e613bbd1d0b9217bca71a711e5f944"
+    "revision": "98ca7274f16c515dc752641f738d24bf"
   },
   {
     "url": "logo/antron-01.png",
@@ -183,27 +183,27 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs.html",
-    "revision": "192fa7d4e08a512bbdcdbc67d4618abc"
+    "revision": "c2ea2ba08c040e3ee40580efb55f5b69"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "a930d26106a9c314cbae53b8a769b184"
+    "revision": "b95508dcf99244da92daaf3c89cd3425"
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "8ce1b864dcbfd2bd1d5f600878ad6d1f"
+    "revision": "6d205916eebe3af3fb214f98efc583e6"
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "ee2af3ef08dcf18dba61fcc940a8880e"
+    "revision": "1869e619d5eebc92633cb115b93640a8"
   },
   {
     "url": "portfolio.html",
-    "revision": "5fe5737ef01494af5c5ed7149cfa15a8"
+    "revision": "78a8d98fc2bddc7434f67d5b6bdce327"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "fc869d4e9f970bb5e57bdd39306d97d0"
+    "revision": "74af6f74c1d69e819c3d81b60802fcae"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
