@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{387:function(t,n,e){"use strict";e.r(n);var l={},i=e(13),r=Object(i.a)(l,(function(){var t=this.$createElement,n=this._self._c||t;return n("div",[n("router-link",{attrs:{to:"/blog"}},[this._v("\n    Kembali\n  ")])],1)}),[],!1,null,null,null);n.default=r.exports}}]);
