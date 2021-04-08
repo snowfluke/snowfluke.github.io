@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "7d3eb654e59823a2fcdf7b66e0414938"
+    "revision": "0be591d95bf9c78fb241ea65475e6f54"
   },
   {
     "url": "assets/css/0.styles.59f3543c.css",
@@ -122,16 +122,16 @@ self.__precacheManifest = [
     "revision": "7c077ac472c7fe776faed1859ee184ec"
   },
   {
-    "url": "assets/js/app.c41409a5.js",
-    "revision": "656f2a9c6ad89c56df3664805b75027f"
+    "url": "assets/js/app.4f987179.js",
+    "revision": "242c4f50b493f7fffc0eea2f69e5eda9"
   },
   {
     "url": "blog.html",
-    "revision": "e3b26e5a49aa3c0c12ff890f14bf0ce1"
+    "revision": "7c2056617bb803c17c64764d3718dc25"
   },
   {
     "url": "index.html",
-    "revision": "d73c44e72e273440d41d122694a91726"
+    "revision": "98e613bbd1d0b9217bca71a711e5f944"
   },
   {
     "url": "logo/antron-01.png",
@@ -183,27 +183,27 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs.html",
-    "revision": "e0203605c9b592bcb64ad32941635ea5"
+    "revision": "192fa7d4e08a512bbdcdbc67d4618abc"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "8710169e84189d94e3b4e35c747e34bd"
+    "revision": "a930d26106a9c314cbae53b8a769b184"
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "77f943ff57577cf0a67619623eecea88"
+    "revision": "8ce1b864dcbfd2bd1d5f600878ad6d1f"
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "ac9daa88ed433ae8ea1310c75382692c"
+    "revision": "ee2af3ef08dcf18dba61fcc940a8880e"
   },
   {
     "url": "portfolio.html",
-    "revision": "f84ea9730326e86ab8b2566d052044ee"
+    "revision": "5fe5737ef01494af5c5ed7149cfa15a8"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "8e37444b39e621d8f406029f91cbd992"
+    "revision": "fc869d4e9f970bb5e57bdd39306d97d0"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
