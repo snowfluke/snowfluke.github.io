@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "33fd60fcd85910b3cd3b2c7c2f1fcb00"
+    "revision": "4b0697a3e7de88de39e56c02ea0e4abf"
   },
   {
     "url": "assets/css/0.styles.59f3543c.css",
@@ -50,44 +50,44 @@ self.__precacheManifest = [
     "revision": "73c636080221cc06d20ec043410e2270"
   },
   {
-    "url": "assets/js/13.651ae092.js",
-    "revision": "dd7dbfe2df905e4e35a65d6434334fbb"
+    "url": "assets/js/13.3043b294.js",
+    "revision": "9913d19035d63792d5c5a201f86b18cf"
   },
   {
-    "url": "assets/js/14.bd27bd3d.js",
-    "revision": "ea485aa94467bcd76564b075e72cb8d1"
+    "url": "assets/js/14.ae9ae450.js",
+    "revision": "165c27b07a55e79833424f01617144e2"
   },
   {
-    "url": "assets/js/15.c412de8e.js",
-    "revision": "ac9cebd4062ce76b525e0bd9c226a3e9"
+    "url": "assets/js/15.8a551736.js",
+    "revision": "b9a5694e4522aa141bd7fc4efbba37ef"
   },
   {
-    "url": "assets/js/16.a8f045d3.js",
-    "revision": "3a5afd4412103346f0a1b882e0decdda"
+    "url": "assets/js/16.eddbccb5.js",
+    "revision": "e6c67c0428f109cb39aa3aa08748852f"
   },
   {
-    "url": "assets/js/17.d854fb89.js",
-    "revision": "85672a0ba4b6c99422fc0e8087ebbbf6"
+    "url": "assets/js/17.a33a5ac6.js",
+    "revision": "aa30e4f7f426c3aa0a7a4c2d256f4c53"
   },
   {
-    "url": "assets/js/18.cd5aad15.js",
-    "revision": "bc7a0a32064214f2d63f06c15bd4edc7"
+    "url": "assets/js/18.1eb6eada.js",
+    "revision": "dca85af684c7cfe4f1bc21caf5a5105a"
   },
   {
-    "url": "assets/js/19.c3b202ec.js",
-    "revision": "932359666bfb6fcaa8fe2e64694b210e"
+    "url": "assets/js/19.2c36d475.js",
+    "revision": "79bd91805461a5bf99e8be9d42629f78"
   },
   {
     "url": "assets/js/2.4c94d82d.js",
     "revision": "bb42977c4c213006bf3b73dd703bd5c3"
   },
   {
-    "url": "assets/js/20.120db56a.js",
-    "revision": "b21b0803a855dca9ae1f2d21e9be2928"
+    "url": "assets/js/20.b64fa8c3.js",
+    "revision": "62b38189738945b0039e6956348ef3ba"
   },
   {
-    "url": "assets/js/21.c7bd0df9.js",
-    "revision": "d0003303cea2131b6c29a2b1235a29b8"
+    "url": "assets/js/21.1ff5c822.js",
+    "revision": "eb4f30716bc20fd6272501c3c19f6fb6"
   },
   {
     "url": "assets/js/22.785da099.js",
@@ -122,16 +122,16 @@ self.__precacheManifest = [
     "revision": "7c077ac472c7fe776faed1859ee184ec"
   },
   {
-    "url": "assets/js/app.9e6c614f.js",
-    "revision": "82ada50e7c785355d1a6b058760d0228"
+    "url": "assets/js/app.5dc80a4f.js",
+    "revision": "a1865f159024ad9424009084a784b8be"
   },
   {
     "url": "blog.html",
-    "revision": "441e6a9ee50a087e1d9efe35bf6c11a0"
+    "revision": "fa71da1cf3f828609e471abff757753a"
   },
   {
     "url": "index.html",
-    "revision": "1ae7af2533bb407a392d48d8822a3cb9"
+    "revision": "5eb07bcaa0ec7b8e9283d65b95370fe8"
   },
   {
     "url": "logo/antron-01.png",
@@ -183,31 +183,31 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs.html",
-    "revision": "46acf708a961d95a3d4ec91d873567e6"
+    "revision": "fa8c55a721836ead4771472a4c7afc0d"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "0a32a91e9098bba9299501c233fd4110"
+    "revision": "4c657fa36091d31d395dbade364a0103"
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "9683833bf0e908b6e05474b4bcff4e67"
+    "revision": "d63ac213206b6f6d2274f882725a47cb"
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "474091b1b00dcbb33a1e2f3cb46ac207"
+    "revision": "0b878bbfcad820b9addd50674e5dcf7c"
   },
   {
     "url": "portfolio.html",
-    "revision": "1831ec194860273b3b8aa3eed3fc553a"
+    "revision": "48891256765a98a487fb9bb6ce722c28"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "9f1ef8865050600a25b116d1c40999ab"
+    "revision": "7d4310092b206b0c55606a3dbb1681d0"
   },
   {
     "url": "post/2021-04-07-seni-tidak-mengharapkan-apapun.html",
-    "revision": "7bcff086c18a57a23f6b0f3ec233f523"
+    "revision": "410c37999afa551e8cf88463988e1010"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
