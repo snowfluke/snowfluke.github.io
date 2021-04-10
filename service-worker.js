@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "1ada8ae77d2eb1978531717b64f0d218"
+    "revision": "216f0bf931e895e75fb20f038a87d2de"
   },
   {
-    "url": "assets/css/0.styles.5d135466.css",
-    "revision": "74cd889d8d0bad7b8757cdd6c4231b27"
+    "url": "assets/css/0.styles.7f39ee0f.css",
+    "revision": "6f0ccdd71bdc16150b4fe096c78e3737"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -50,12 +50,12 @@ self.__precacheManifest = [
     "revision": "a450dd42065f79cd3654580adbf0aedd"
   },
   {
-    "url": "assets/js/13.175d8e74.js",
-    "revision": "c0a725634e22cd9840a5d53a52f3683a"
+    "url": "assets/js/13.be0e3eae.js",
+    "revision": "d92fc16c2ebbc94f800e50e77e6f371d"
   },
   {
-    "url": "assets/js/14.633ee558.js",
-    "revision": "f6fbc466b06fbc1d9c063adba2fa511e"
+    "url": "assets/js/14.81fb090d.js",
+    "revision": "97fd7e8d28c59339d90896796422b1fa"
   },
   {
     "url": "assets/js/15.725afb7e.js",
@@ -82,12 +82,12 @@ self.__precacheManifest = [
     "revision": "171d403925c7d50d92c6a9b1ac6bd493"
   },
   {
-    "url": "assets/js/20.e9ad0280.js",
-    "revision": "589440605903b252d52bd950ee7de472"
+    "url": "assets/js/20.4d5c6a6b.js",
+    "revision": "581581707fd069613f46b9fe59de6d57"
   },
   {
-    "url": "assets/js/21.5d474164.js",
-    "revision": "d70f0fc8c39147fba74655ac895258c8"
+    "url": "assets/js/21.83e68886.js",
+    "revision": "a818ab41b57b17a7682581ca09f92195"
   },
   {
     "url": "assets/js/22.6f571d69.js",
@@ -110,12 +110,12 @@ self.__precacheManifest = [
     "revision": "a5fd5f4280f8a91cf08084deba86b875"
   },
   {
-    "url": "assets/js/5.6e24bf51.js",
-    "revision": "e3c39cd7314e5b971286bdfc0db49624"
+    "url": "assets/js/5.dfe25580.js",
+    "revision": "88bdcef81911ee7f47e531d94b48ebc8"
   },
   {
-    "url": "assets/js/6.5c8c1b0b.js",
-    "revision": "4725f48f39df5b44051580df72566c83"
+    "url": "assets/js/6.d7badf11.js",
+    "revision": "c8abcd389731c96cd41724663479547d"
   },
   {
     "url": "assets/js/7.66ef9e5d.js",
@@ -130,16 +130,16 @@ self.__precacheManifest = [
     "revision": "8ea10e4d5dbfb1f765c2caab5c073f59"
   },
   {
-    "url": "assets/js/app.5aa4dad0.js",
-    "revision": "655b71aedac1e77e590c6a111825f4d3"
+    "url": "assets/js/app.7e295fd8.js",
+    "revision": "36b696d74635c3c3bc0b716db15b6003"
   },
   {
     "url": "blog.html",
-    "revision": "9c1cf17b5bb3196267887760a93d6662"
+    "revision": "c4411c6c74fd11396cdd63a396cb3039"
   },
   {
     "url": "index.html",
-    "revision": "d219bb706b858553693cc668d3c48a26"
+    "revision": "ce8ecc2914d4851a63312ccf18325af9"
   },
   {
     "url": "logo/antron-01.png",
@@ -191,11 +191,11 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs.html",
-    "revision": "c23d866a6a4db2031f18c3105da152e5"
+    "revision": "2a1b45122f521471b0bc7781d6963d37"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "d49cfb7ea748c17a11a463fbd913e979"
+    "revision": "c9fd4c23c6f6f655285884891ade6d2b"
   },
   {
     "url": "oojs/0/devdocs.png",
@@ -215,7 +215,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "83e07f7168f7e0fbc7a2b1949f6cc6fe"
+    "revision": "8296630876c94235af85e8f11f1a06d6"
   },
   {
     "url": "oojs/1/nodeindex.png",
@@ -227,15 +227,19 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "654305238e2a31711fc6894ac64e1017"
+    "revision": "0e551e68068bbfd99a5159b98b7a1c8d"
+  },
+  {
+    "url": "oojs/2/markus-spiske-jG8nlwLRZTM-unsplash.jpg",
+    "revision": "c65fcb3af582926a5744262e6bdd682c"
   },
   {
     "url": "portfolio.html",
-    "revision": "eda643733c27632cae1a6935712202be"
+    "revision": "7893e5be03604f9857124f9d62bcc72f"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "d65c0ddf411ff1f6b66247eb4c596c93"
+    "revision": "08e10813801bfff37355b64631c6f0bd"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
