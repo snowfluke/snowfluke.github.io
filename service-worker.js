@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "216f0bf931e895e75fb20f038a87d2de"
+    "revision": "d18456ea3121541892b8164cf0b17174"
   },
   {
     "url": "assets/css/0.styles.7f39ee0f.css",
@@ -74,24 +74,24 @@ self.__precacheManifest = [
     "revision": "21ce14c92171832f2c72ef31b6e46332"
   },
   {
-    "url": "assets/js/19.5df372e0.js",
-    "revision": "58a4ab920509f20d1c531bb9e86c01c7"
+    "url": "assets/js/19.89eaa1b9.js",
+    "revision": "7bacfaf1d770e67dc2a32dc898e51adf"
   },
   {
-    "url": "assets/js/2.7b4290ef.js",
-    "revision": "171d403925c7d50d92c6a9b1ac6bd493"
+    "url": "assets/js/2.cc09ad90.js",
+    "revision": "b83fd5c77767d30e1966e8fdce958a40"
   },
   {
-    "url": "assets/js/20.4d5c6a6b.js",
-    "revision": "581581707fd069613f46b9fe59de6d57"
+    "url": "assets/js/20.e22ad949.js",
+    "revision": "14bf114584a4e3f6f775967cc29fcf9a"
   },
   {
-    "url": "assets/js/21.83e68886.js",
-    "revision": "a818ab41b57b17a7682581ca09f92195"
+    "url": "assets/js/21.f195bc1a.js",
+    "revision": "179789125538c4f02a45f3a67e51b9c8"
   },
   {
-    "url": "assets/js/22.6f571d69.js",
-    "revision": "3627a2dbc9421c8012cd2c41a47f1e1f"
+    "url": "assets/js/22.debc4751.js",
+    "revision": "d9cfd5e96158c0450cb8a0cb917805c2"
   },
   {
     "url": "assets/js/23.c97f7db6.js",
@@ -130,16 +130,16 @@ self.__precacheManifest = [
     "revision": "8ea10e4d5dbfb1f765c2caab5c073f59"
   },
   {
-    "url": "assets/js/app.7e295fd8.js",
-    "revision": "36b696d74635c3c3bc0b716db15b6003"
+    "url": "assets/js/app.2dce67eb.js",
+    "revision": "f6579d52ddbd74620730d85da35f7a6f"
   },
   {
     "url": "blog.html",
-    "revision": "c4411c6c74fd11396cdd63a396cb3039"
+    "revision": "c4758ad7055c0f37d3e5512332a7c302"
   },
   {
     "url": "index.html",
-    "revision": "ce8ecc2914d4851a63312ccf18325af9"
+    "revision": "932ae38a3d01d3167ecf5deb40b2815b"
   },
   {
     "url": "logo/antron-01.png",
@@ -191,11 +191,11 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs.html",
-    "revision": "2a1b45122f521471b0bc7781d6963d37"
+    "revision": "84e746f80acb2998a1e7fde6f413f4bc"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "c9fd4c23c6f6f655285884891ade6d2b"
+    "revision": "b18a141a09f68e0e96d3415eaf6e95e8"
   },
   {
     "url": "oojs/0/devdocs.png",
@@ -215,7 +215,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "8296630876c94235af85e8f11f1a06d6"
+    "revision": "a3d41312889753b2fea88d73a235cece"
   },
   {
     "url": "oojs/1/nodeindex.png",
@@ -227,7 +227,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "0e551e68068bbfd99a5159b98b7a1c8d"
+    "revision": "26921887e206135951785f844205c183"
   },
   {
     "url": "oojs/2/markus-spiske-jG8nlwLRZTM-unsplash.jpg",
@@ -235,11 +235,11 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "7893e5be03604f9857124f9d62bcc72f"
+    "revision": "7e98d7865f8499ca9635b8e31e8966c2"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "08e10813801bfff37355b64631c6f0bd"
+    "revision": "2a69a57313b2fbe6b4a756f15302c8f7"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
