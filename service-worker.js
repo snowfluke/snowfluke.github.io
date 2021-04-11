@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d18456ea3121541892b8164cf0b17174"
+    "revision": "db94c8c4c9b9da21e07f11b4501125c3"
   },
   {
     "url": "assets/css/0.styles.7f39ee0f.css",
@@ -66,40 +66,44 @@ self.__precacheManifest = [
     "revision": "f57efd7045cb4d0bc3b5a36347ba1a20"
   },
   {
-    "url": "assets/js/17.8e9b0628.js",
-    "revision": "c72e1c1defa576933efb3f6d4f89f27c"
+    "url": "assets/js/17.fdf1e937.js",
+    "revision": "3571242f98b27a4c3e51bf84cdfd235a"
   },
   {
-    "url": "assets/js/18.ac595209.js",
-    "revision": "21ce14c92171832f2c72ef31b6e46332"
+    "url": "assets/js/18.414b279e.js",
+    "revision": "8b6287c8973c4e6445095cdbc33acb6e"
   },
   {
-    "url": "assets/js/19.89eaa1b9.js",
-    "revision": "7bacfaf1d770e67dc2a32dc898e51adf"
+    "url": "assets/js/19.59cdbdaa.js",
+    "revision": "b970a2a5a4ddb486a2830a99994d3ac3"
   },
   {
-    "url": "assets/js/2.cc09ad90.js",
-    "revision": "b83fd5c77767d30e1966e8fdce958a40"
+    "url": "assets/js/2.7b14797e.js",
+    "revision": "07d46a3036f7c03451236c4923e60bb3"
   },
   {
-    "url": "assets/js/20.e22ad949.js",
-    "revision": "14bf114584a4e3f6f775967cc29fcf9a"
+    "url": "assets/js/20.4d5c6a6b.js",
+    "revision": "581581707fd069613f46b9fe59de6d57"
   },
   {
-    "url": "assets/js/21.f195bc1a.js",
-    "revision": "179789125538c4f02a45f3a67e51b9c8"
+    "url": "assets/js/21.ac2a5a64.js",
+    "revision": "df3cb9e238ad2e3c8cac254891d374c9"
   },
   {
-    "url": "assets/js/22.debc4751.js",
-    "revision": "d9cfd5e96158c0450cb8a0cb917805c2"
+    "url": "assets/js/22.a971bdb4.js",
+    "revision": "1ed21a84ad0405f89483fd8c481a8137"
   },
   {
-    "url": "assets/js/23.c97f7db6.js",
-    "revision": "f70b7c1fbf90a531b93beb324e348adb"
+    "url": "assets/js/23.404d626b.js",
+    "revision": "1f6bbeee3917a396200287a6503404f0"
   },
   {
-    "url": "assets/js/24.5a7ec6d9.js",
-    "revision": "9aa65d40f3a4fd131d0687c6781f9f61"
+    "url": "assets/js/24.9f83cf4f.js",
+    "revision": "311f2d03ba6fdc31eedbf4eb6357db9b"
+  },
+  {
+    "url": "assets/js/25.210c86f5.js",
+    "revision": "627310a1a77c0b106beeb8e535b33b1a"
   },
   {
     "url": "assets/js/3.e9372a84.js",
@@ -110,8 +114,8 @@ self.__precacheManifest = [
     "revision": "a5fd5f4280f8a91cf08084deba86b875"
   },
   {
-    "url": "assets/js/5.dfe25580.js",
-    "revision": "88bdcef81911ee7f47e531d94b48ebc8"
+    "url": "assets/js/5.dc22e754.js",
+    "revision": "a7a9105eed5a6dca3fd09c3cbb1e0130"
   },
   {
     "url": "assets/js/6.d7badf11.js",
@@ -122,24 +126,24 @@ self.__precacheManifest = [
     "revision": "0253f67a1e02eef2c397c717a5408779"
   },
   {
-    "url": "assets/js/8.2d8aad3f.js",
-    "revision": "0e978963da42f5743a7aee878910cfbd"
+    "url": "assets/js/8.78bce1d4.js",
+    "revision": "3a70ae704e8ef351211adee4d1c856a5"
   },
   {
-    "url": "assets/js/9.ec7ec919.js",
-    "revision": "8ea10e4d5dbfb1f765c2caab5c073f59"
+    "url": "assets/js/9.525d4cd5.js",
+    "revision": "fa7a7a5a71ac4833eb8f6773deff7da7"
   },
   {
-    "url": "assets/js/app.2dce67eb.js",
-    "revision": "f6579d52ddbd74620730d85da35f7a6f"
+    "url": "assets/js/app.3cd3c8e9.js",
+    "revision": "f111383bda6726599e3c0a22c09875df"
   },
   {
     "url": "blog.html",
-    "revision": "c4758ad7055c0f37d3e5512332a7c302"
+    "revision": "34d7df2234b194e619c18a34e5df254e"
   },
   {
     "url": "index.html",
-    "revision": "932ae38a3d01d3167ecf5deb40b2815b"
+    "revision": "e0784b6643a7ce4f7423a008c6e097c9"
   },
   {
     "url": "logo/antron-01.png",
@@ -191,11 +195,15 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs.html",
-    "revision": "84e746f80acb2998a1e7fde6f413f4bc"
+    "revision": "f9ad68061b99b962682e06369b4c8beb"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "b18a141a09f68e0e96d3415eaf6e95e8"
+    "revision": "d8540f48b817485a19220c8359592a8a"
+  },
+  {
+    "url": "oojs/0/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
+    "revision": "835959110ebfe648fa5b5d2bb1b6334e"
   },
   {
     "url": "oojs/0/devdocs.png",
@@ -215,7 +223,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "a3d41312889753b2fea88d73a235cece"
+    "revision": "73f8ba2b51f073bf2c148a5ad2f713b8"
   },
   {
     "url": "oojs/1/nodeindex.png",
@@ -227,19 +235,27 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "26921887e206135951785f844205c183"
+    "revision": "9b1e6d0116270c838b8bf4390d29f704"
   },
   {
     "url": "oojs/2/markus-spiske-jG8nlwLRZTM-unsplash.jpg",
     "revision": "c65fcb3af582926a5744262e6bdd682c"
   },
   {
+    "url": "oojs/3-operator-javascript.html",
+    "revision": "451d09db3d66ae1687f70678a5121020"
+  },
+  {
+    "url": "oojs/3/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
+    "revision": "835959110ebfe648fa5b5d2bb1b6334e"
+  },
+  {
     "url": "portfolio.html",
-    "revision": "7e98d7865f8499ca9635b8e31e8966c2"
+    "revision": "40b01520d1ca63c39d1e51eb1816740f"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "2a69a57313b2fbe6b4a756f15302c8f7"
+    "revision": "2fcf08dc261904aa2c718e6799425f9f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

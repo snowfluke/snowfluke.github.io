@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>3. [OOJS] Operator Javascript | Awal Ariansyah</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/awalLogo.webp">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="description" content="Mengenal operasi-operasi dasar tipe data pada javascript">
+    <meta property="article:published_time" content="2021-04-12T00:00:00.000Z">
+    <meta property="og:site_name" content="Awal Ariansyah">
+    <meta property="og:title" content="3. [OOJS] Operator Javascript">
+    <meta property="og:description" content="Mengenal operasi-operasi dasar tipe data pada javascript">
+    <meta property="og:type" content="Artikel">
+    <meta property="og:url" content="/oojs/3-operator-javascript.html">
+    <meta property="og:image" content="/oojs/3/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg">
+    <meta name="twitter:title" content="3. [OOJS] Operator Javascript">
+    <meta name="twitter:description" content="Mengenal operasi-operasi dasar tipe data pada javascript">
+    <meta name="twitter:url" content="/oojs/3-operator-javascript.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/oojs/3/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="keywords" content="Mengenal operasi-operasi dasar tipe data pada javascript">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.7f39ee0f.css" as="style"><link rel="preload" href="/assets/js/app.3cd3c8e9.js" as="script"><link rel="preload" href="/assets/js/2.7b14797e.js" as="script"><link rel="preload" href="/assets/js/22.a971bdb4.js" as="script"><link rel="preload" href="/assets/js/13.be0e3eae.js" as="script"><link rel="preload" href="/assets/js/15.725afb7e.js" as="script"><link rel="preload" href="/assets/js/11.32562f7a.js" as="script"><link rel="preload" href="/assets/js/3.e9372a84.js" as="script"><link rel="prefetch" href="/assets/js/10.b3c575b2.js"><link rel="prefetch" href="/assets/js/12.fa888d6c.js"><link rel="prefetch" href="/assets/js/14.81fb090d.js"><link rel="prefetch" href="/assets/js/16.44589993.js"><link rel="prefetch" href="/assets/js/17.fdf1e937.js"><link rel="prefetch" href="/assets/js/18.414b279e.js"><link rel="prefetch" href="/assets/js/19.59cdbdaa.js"><link rel="prefetch" href="/assets/js/20.4d5c6a6b.js"><link rel="prefetch" href="/assets/js/21.ac2a5a64.js"><link rel="prefetch" href="/assets/js/23.404d626b.js"><link rel="prefetch" href="/assets/js/24.9f83cf4f.js"><link rel="prefetch" href="/assets/js/25.210c86f5.js"><link rel="prefetch" href="/assets/js/4.267c522d.js"><link rel="prefetch" href="/assets/js/5.dc22e754.js"><link rel="prefetch" href="/assets/js/6.d7badf11.js"><link rel="prefetch" href="/assets/js/7.66ef9e5d.js"><link rel="prefetch" href="/assets/js/8.78bce1d4.js"><link rel="prefetch" href="/assets/js/9.525d4cd5.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7f39ee0f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/awalLogo.webp" alt="Awal Ariansyah" class="logo"> <span class="site-name can-hide">Awal Ariansyah</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Beranda
+</a></div><div class="nav-item"><a href="/portfolio.html" class="nav-link">
+  Portfolio
+</a></div><div class="nav-item"><a href="/blog.html" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="/oojs.html" class="nav-link">
+  OOJS
+</a></div> <div class="nav-item"><a role="button" aria-label="Switch to light mode" class="nav-link"><span>Mode</span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Beranda
+</a></div><div class="nav-item"><a href="/portfolio.html" class="nav-link">
+  Portfolio
+</a></div><div class="nav-item"><a href="/blog.html" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="/oojs.html" class="nav-link">
+  OOJS
+</a></div> <div class="nav-item"><a role="button" aria-label="Switch to light mode" class="nav-link"><span>Mode</span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>3. [OOJS] Operator Javascript</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/oojs/3-operator-javascript.html#apa-itu-operator" class="sidebar-link">Apa itu operator?</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-succinct-content content__default"><div class="post-header"><div><a href="/oojs" class="router-link-active">
+    Kembali
+  </a></div> <h1> 3. [OOJS] Operator Javascript </h1> <img src="/oojs/3/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg" alt="Javascript oleh Robin Ebbinghaus" width="100%"></div> <p>Photo by <a href="https://unsplash.com/@cebbbinghaus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Christopher Robin Ebbinghaus</a> on <a href="https://unsplash.com/s/photos/javascript?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p> <h2 id="apa-itu-operator"><a href="#apa-itu-operator" class="header-anchor">#</a> Apa itu operator?</h2> <p>Coming soon...</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><div style="visibility:hidden;display:none;"></div><!----><!----><!----></div></div>
+    <script src="/assets/js/app.3cd3c8e9.js" defer></script><script src="/assets/js/2.7b14797e.js" defer></script><script src="/assets/js/22.a971bdb4.js" defer></script><script src="/assets/js/13.be0e3eae.js" defer></script><script src="/assets/js/15.725afb7e.js" defer></script><script src="/assets/js/11.32562f7a.js" defer></script><script src="/assets/js/3.e9372a84.js" defer></script>
+  </body>
+</html>
