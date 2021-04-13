@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "cf7a538a119b6bb2afb7b0caae9ef528"
+    "revision": "6f3cbdf16c06d35f2b4d2fb800c97b01"
   },
   {
     "url": "assets/css/0.styles.7f39ee0f.css",
@@ -102,8 +102,8 @@ self.__precacheManifest = [
     "revision": "9b9953aaf9c856dbac99703cb25a492a"
   },
   {
-    "url": "assets/js/25.e99df797.js",
-    "revision": "61f3d7271f581f55c904d1c9c99c8945"
+    "url": "assets/js/25.44e3c129.js",
+    "revision": "4ad4762aa3f1dd306c3a32d2f8af4441"
   },
   {
     "url": "assets/js/26.4dd34410.js",
@@ -138,16 +138,16 @@ self.__precacheManifest = [
     "revision": "fa7a7a5a71ac4833eb8f6773deff7da7"
   },
   {
-    "url": "assets/js/app.d389df36.js",
-    "revision": "77b94da5be7574765bd008774eb72fdf"
+    "url": "assets/js/app.713f1572.js",
+    "revision": "9f61714aee003d1d4a0a5d4408e7e86e"
   },
   {
     "url": "blog.html",
-    "revision": "0e05937baba9f812238cfced90a9757d"
+    "revision": "5a7851a5df076756e869bebf79c19783"
   },
   {
     "url": "index.html",
-    "revision": "636ea8c6a40c3ec987d1ad7edef372ed"
+    "revision": "c02c404ba9315d1dd4a9046eb17b3876"
   },
   {
     "url": "logo/antron-01.png",
@@ -199,11 +199,11 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs.html",
-    "revision": "9bff8794c57fa1284e0f27c96b7101ff"
+    "revision": "632e11ea89a698fff30ea8a760563e7b"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "a366ed54f3add83aa3245bcb3c8ba0fd"
+    "revision": "255ac0cb1b5eb9f4d4665b08e16b69da"
   },
   {
     "url": "oojs/0/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -227,7 +227,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "917f12fb35289e6434e85921d655f2fa"
+    "revision": "cd86d72faa3ff3e25dd08d8c93ef97de"
   },
   {
     "url": "oojs/1/nodeindex.png",
@@ -239,7 +239,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "240d4967cfea718a5be60cf32408a200"
+    "revision": "bc2445fccad54493b0109b5d79a59a3a"
   },
   {
     "url": "oojs/2/markus-spiske-jG8nlwLRZTM-unsplash.jpg",
@@ -247,7 +247,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/3-operator-javascript.html",
-    "revision": "fbbfa021b0742fce0020ccc98bc0501e"
+    "revision": "c54f6a300740317be8fff82ed635d119"
   },
   {
     "url": "oojs/3/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -255,15 +255,15 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "2981374a9f0bef2ab360d7e440f7cfc6"
+    "revision": "70c8fee6f366dcb95d2b6b78e91a0394"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "d14fa05707760a0b2cb8319a86110896"
+    "revision": "92cf1bf69424974f07e549186f4b62e2"
   },
   {
     "url": "post/2021-04-13-cara-mengurangi-ukuran-apk-expo-react-native.html",
-    "revision": "237ede0dc56a7f5e47de705939a923b1"
+    "revision": "757931f7586907ee86962a5e7db1b5ec"
   },
   {
     "url": "post/devto1.png",
