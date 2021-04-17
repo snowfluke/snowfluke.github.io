@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "cd3793086be3aeb234b6059dc29134c4"
+    "revision": "f18ec804757a318a6b2605c7bf7d9dba"
   },
   {
     "url": "assets/css/0.styles.7f39ee0f.css",
@@ -94,12 +94,12 @@ self.__precacheManifest = [
     "revision": "dc3cfeee890c308d1e08065dcd2e86bd"
   },
   {
-    "url": "assets/js/23.544d36f7.js",
-    "revision": "efbc72f09fc7a3f2bdb4b8263d06b7d1"
+    "url": "assets/js/23.e3c0db68.js",
+    "revision": "ea596badc74e223ba2e95e522e097dc0"
   },
   {
-    "url": "assets/js/24.283aff25.js",
-    "revision": "587aecf9913ee4a5f35d22f00c5b4db1"
+    "url": "assets/js/24.c6bebcb5.js",
+    "revision": "29a087303ea985c1949124d66c89ebae"
   },
   {
     "url": "assets/js/25.5691d94f.js",
@@ -150,16 +150,16 @@ self.__precacheManifest = [
     "revision": "fa7a7a5a71ac4833eb8f6773deff7da7"
   },
   {
-    "url": "assets/js/app.6a682177.js",
-    "revision": "11254383e57a3ab37704c417a950ca69"
+    "url": "assets/js/app.6c1c1a3d.js",
+    "revision": "f6e4e9d1b0224d7e3441a90dfedeb932"
   },
   {
     "url": "blog.html",
-    "revision": "699ae2c562a051cea0aba56ff79a9aa1"
+    "revision": "0e5617196d7e912cc1c9f8b2b93a56db"
   },
   {
     "url": "index.html",
-    "revision": "3bacac21b74f7f1f2c01aa31d4aead02"
+    "revision": "0dbd3baef742940ac2682f0b8f7f3083"
   },
   {
     "url": "logo/antron-01.png",
@@ -211,11 +211,11 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs.html",
-    "revision": "bd7eeeb203683186ea3e1d14f63b52f6"
+    "revision": "a01733edcb4b98b5ac0de43cdfd16cd4"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "746554b5f596c8ae14a3166c352d251a"
+    "revision": "7fa4d56fe8e9601c7191cb826a07d6de"
   },
   {
     "url": "oojs/0/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -243,7 +243,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "df825924a0ca3ebc0b09ee6c29b140ff"
+    "revision": "b40f0e864072ff739aeeecdc76d6402e"
   },
   {
     "url": "oojs/1/nodeindex.png",
@@ -255,7 +255,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "6590f89d51b6d2e7c56dfe359e5d211a"
+    "revision": "011331184b44e8954f322c7c2e67168a"
   },
   {
     "url": "oojs/2/markus-spiske-jG8nlwLRZTM-unsplash.jpg",
@@ -263,7 +263,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/3-operator-javascript.html",
-    "revision": "6a72f99da771fcbc9257bbded572e11a"
+    "revision": "f542ff8cefc658722c2502e174ccc7c9"
   },
   {
     "url": "oojs/3/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -271,7 +271,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/4-operator-javascript-lanjutan.html",
-    "revision": "816260fef6412d5876896ec68fdd6794"
+    "revision": "9e05e1b920f7d368a5a488301ffcd59a"
   },
   {
     "url": "oojs/4/irvan-smith-5eBW5GomfhY-unsplash.jpg",
@@ -279,7 +279,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/5-mengenal-function-dan-repl.html",
-    "revision": "fd576bd9dd835db42d77b9440a34f4a8"
+    "revision": "3bccc6a9d8d53ff5f3c9a1012a77327d"
   },
   {
     "url": "oojs/5/ferenc-almasi-EJSaEnVvZcg-unsplash.jpg",
@@ -287,19 +287,19 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "71f58d593ae843630177d660bccd20aa"
+    "revision": "f58b390b4850738303f90ec92f84c45c"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "74322bfcd111147d36dc6d83edaef85b"
+    "revision": "8939b715b9f3a01c63e60d97a23dc95a"
   },
   {
     "url": "post/2021-04-13-cara-mengurangi-ukuran-apk-expo-react-native.html",
-    "revision": "d2a0594b7519a570b9c7a9da90223f39"
+    "revision": "9f88addfff7ef76a4ec42533c8a81a19"
   },
   {
     "url": "post/2021-04-14-cara-membuat-screenshot-kode-keren-di-VSCode.html",
-    "revision": "29ae70f40c8aaa468fff07ebac5e4679"
+    "revision": "3c84450d430a8d32162a1ccdd4d4332f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
