@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "8cc15831f90345f02ccaa633830644db"
+    "revision": "6d9cbea04276c9fc994df77a3065a41c"
   },
   {
-    "url": "assets/css/0.styles.7f39ee0f.css",
-    "revision": "6f0ccdd71bdc16150b4fe096c78e3737"
+    "url": "assets/css/0.styles.efbe6bc5.css",
+    "revision": "030e0598300e6375883d38fc34dbdca9"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -66,52 +66,52 @@ self.__precacheManifest = [
     "revision": "f57efd7045cb4d0bc3b5a36347ba1a20"
   },
   {
-    "url": "assets/js/17.cdd25dea.js",
-    "revision": "6281eadd46c0dfcab5f6e46d27979f55"
+    "url": "assets/js/17.8e9b0628.js",
+    "revision": "c72e1c1defa576933efb3f6d4f89f27c"
   },
   {
-    "url": "assets/js/18.414b279e.js",
-    "revision": "8b6287c8973c4e6445095cdbc33acb6e"
+    "url": "assets/js/18.ac595209.js",
+    "revision": "21ce14c92171832f2c72ef31b6e46332"
   },
   {
-    "url": "assets/js/19.5df372e0.js",
-    "revision": "58a4ab920509f20d1c531bb9e86c01c7"
+    "url": "assets/js/19.e2e4316f.js",
+    "revision": "4fbbc58022ac52e6495d8ad184264700"
   },
   {
     "url": "assets/js/2.ec744198.js",
     "revision": "79294f6e7b4d9ae3bd9d9f4b71845357"
   },
   {
-    "url": "assets/js/20.94ce9951.js",
-    "revision": "c453a6b94e7e898559ce1114bdb206c9"
+    "url": "assets/js/20.202a1f6d.js",
+    "revision": "413f0caf33561eb21097cbfe8fb67dcc"
   },
   {
-    "url": "assets/js/21.ac2a5a64.js",
-    "revision": "df3cb9e238ad2e3c8cac254891d374c9"
+    "url": "assets/js/21.0b7f8356.js",
+    "revision": "8668e9fa235ebf0d0642744d26aa64a9"
   },
   {
-    "url": "assets/js/22.88ebe57d.js",
-    "revision": "dc3cfeee890c308d1e08065dcd2e86bd"
+    "url": "assets/js/22.4381945d.js",
+    "revision": "cd43611438d0c40e72c3838a37e2230c"
   },
   {
-    "url": "assets/js/23.b15e5a05.js",
-    "revision": "aee58c8998c2baa102cce59459ba2133"
+    "url": "assets/js/23.282bcb73.js",
+    "revision": "91645c5ed11f45d90c826620b6150461"
   },
   {
-    "url": "assets/js/24.cab1a2a2.js",
-    "revision": "51ac943a6cd3331d34926a17d99859fc"
+    "url": "assets/js/24.87ee5b3a.js",
+    "revision": "12618328c92a17d88fb4fd781d15dd94"
   },
   {
-    "url": "assets/js/25.89479265.js",
-    "revision": "7984efa69e15e296feb088a641e49215"
+    "url": "assets/js/25.a8bc8931.js",
+    "revision": "fbfbd21db6293b6814915c2f418f81dc"
   },
   {
-    "url": "assets/js/26.8ebf7643.js",
-    "revision": "8fd666d08280096fe214ed1fc4508450"
+    "url": "assets/js/26.987cf09e.js",
+    "revision": "4a024c4a51fe65798d512543e69af042"
   },
   {
-    "url": "assets/js/27.84fbb36f.js",
-    "revision": "942e93dd6396a37a54e753e547441875"
+    "url": "assets/js/27.23947c86.js",
+    "revision": "58355819e81718f3ded43835a1d36096"
   },
   {
     "url": "assets/js/28.86352ed5.js",
@@ -130,12 +130,12 @@ self.__precacheManifest = [
     "revision": "8d4ff9404577288c81f7620e86f8dbb6"
   },
   {
-    "url": "assets/js/6.d7badf11.js",
-    "revision": "c8abcd389731c96cd41724663479547d"
+    "url": "assets/js/6.0d6a9741.js",
+    "revision": "7ead14c8d9709ff274720e748d6afe30"
   },
   {
-    "url": "assets/js/7.66ef9e5d.js",
-    "revision": "0253f67a1e02eef2c397c717a5408779"
+    "url": "assets/js/7.e9de2391.js",
+    "revision": "5c632fe85bc1788c1dd4f0a76213d169"
   },
   {
     "url": "assets/js/8.ed11c999.js",
@@ -146,16 +146,16 @@ self.__precacheManifest = [
     "revision": "fa7a7a5a71ac4833eb8f6773deff7da7"
   },
   {
-    "url": "assets/js/app.cda5b77e.js",
-    "revision": "46a59773e585b826f66d795d48a66264"
+    "url": "assets/js/app.0bf9b13e.js",
+    "revision": "605b395c9cb6648a466bee1612085a3d"
   },
   {
     "url": "blog.html",
-    "revision": "c98497dee5f63b46d96558fe1df5bff3"
+    "revision": "8496c6f9eb5eabde07c6f240feec8409"
   },
   {
     "url": "index.html",
-    "revision": "35ce11e9ce7ae1cbc4d645a449416a69"
+    "revision": "de0df8a2db5d1870b07d23e2e19d34a9"
   },
   {
     "url": "logo/antron-01.png",
@@ -207,11 +207,11 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs.html",
-    "revision": "fcb18c9b19a57274a96ca618b1a90273"
+    "revision": "44c3a7a3c285630576ae428da27726d3"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "f2d046671d49eebc8e5c41b709dcdc6b"
+    "revision": "6bcae90ba2d103ffeeb9d823d6e93e4a"
   },
   {
     "url": "oojs/0/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -239,7 +239,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "15a040b2cc6b57296b96c13bbabed10d"
+    "revision": "2da7748b62d34c0b46db298ae6e47d70"
   },
   {
     "url": "oojs/1/nodeindex.png",
@@ -251,7 +251,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "8da69ade7ddac06fa52fc6a296c35719"
+    "revision": "3912ffec2b123e539f22cdb52887315e"
   },
   {
     "url": "oojs/2/markus-spiske-jG8nlwLRZTM-unsplash.jpg",
@@ -259,7 +259,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/3-operator-javascript.html",
-    "revision": "74d840b207d5116b8f4cbbae1f4b6242"
+    "revision": "6984fdcb997648ab7a00c3ac9a5e1606"
   },
   {
     "url": "oojs/3/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -267,7 +267,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/4-operator-javascript-lanjutan.html",
-    "revision": "beb366bd48c04643790a267cd7eb311f"
+    "revision": "1a030391769a4dbb20a22d723fce4e67"
   },
   {
     "url": "oojs/4/irvan-smith-5eBW5GomfhY-unsplash.jpg",
@@ -275,19 +275,19 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "757b64ff728aa15b52be87de16db8767"
+    "revision": "d68423ab40884e9b1e844abdc086b121"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "e173ce3b3c049fd5df768dcf1a40dc6c"
+    "revision": "e2c22a2eb4f0364d17e9688ef7407bf0"
   },
   {
     "url": "post/2021-04-13-cara-mengurangi-ukuran-apk-expo-react-native.html",
-    "revision": "ad9a9e15b7985348c1b63c54c6056a07"
+    "revision": "789118689dee721001ec5973ef4d6395"
   },
   {
     "url": "post/2021-04-14-cara-membuat-screenshot-kode-keren-di-VSCode.html",
-    "revision": "07e603d017d61b9ec6be21ad991298dd"
+    "revision": "ed2d1eae8114e477fb3963d6c52aef53"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
