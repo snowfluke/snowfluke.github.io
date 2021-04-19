@@ -447,7 +447,7 @@ tsukishima.halo()
     }
 ]
 
-function bershikan(){
+function bersihkan(){
     editor.value = ""
     bersihkanKonsol()
 }
@@ -586,6 +586,7 @@ function copy(){
 }
 
 function getCode(codeMaterial){
+    if(codeMaterial == "") return
     bersihkan()
     editor.value = sourceCode[codeMaterial].code
 }

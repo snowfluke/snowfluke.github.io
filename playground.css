@@ -77,3 +77,11 @@ button:hover {
 .shortCutWrapper .shortCut2:hover{
     background-color: var(--textColor);
 }
+
+.dropdowner{
+    display: grid;
+}
+
+select{
+    padding:0.7em;
+}
