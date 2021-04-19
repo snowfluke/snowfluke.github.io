@@ -506,6 +506,258 @@ console.log(\`Nama kamu adalah \${nama}!\`)
 
 // Cobalah bereksperimen
 `
+    },
+    {
+        materi: '6a',
+        namaProgram: "Percabangan If",
+        code:
+`// Contoh penggunaan if/if-else/if-else-if
+class UtsPbo{
+    constructor(nama, nilaiUtsPbo){
+        this.nama = nama
+        this.nilai = nilaiUtsPbo
+    }
+
+    // Hanya ada satu if, jika kondisi tidak terpenuhi maka
+    // Kode di dalamnya akan diabaikan
+    cek1(){
+        if(this.nilai > 85){
+            // Jika kondisi terpenuhi
+            console.log(\`\${this.nama}, Kamu mendapat nilai A\`)
+        }
+    }
+
+    cek2(){
+        if(this.nilai > 85){
+            // Jika terpenuhi
+            console.log(\`\${this.nama}, Kamu mendapat nilai A\`)
+        }else{
+            // Jika tidak terpenuhi
+            console.log(\`\${this.nama}, Kamu tidak mendapat nilai A\`)
+        }
+    }
+
+    cek3(){
+        if(this.nilai > 85){
+            // Jika terpenuhi
+            console.log(\`\${this.nama}, Kamu mendapat nilai A\`)
+
+            // Jika tidak terpenuhi lakukan pengecekan kembali
+        }else if (this.nilai > 75){
+            // Jika pengecekan kedua terpenuhi
+            console.log(\`\${this.nama}, Kamu mendapat nilai B\`)
+        }else {
+            // jika tidak terpenuhi
+            console.log(\`\${this.nama}, Kamu tidak mendapat nilai A maupun B\`)
+        }
+    }
+}
+
+const edgar = new UtsPbo("Edgar", 70)
+edgar.cek1()
+edgar.cek2()
+edgar.cek3()
+
+`
+    },
+    {
+        materi: "6b",
+        namaProgram: "Percabangan Switch Case",
+        code:
+`class UtsPbo{
+    constructor(nama, nilaiUtsPbo){
+        this.nama = nama
+        this.nilai = nilaiUtsPbo
+    }
+
+    cek(){
+        let nilai = this.nilai
+
+    // Perhatikan dan analisis kode switch dengan teliti
+    // Switch() hanya menerima ekspresi, kemudian ekspresi
+    // di evaluasi menggunakn case :
+    // dan break untuk keluar dari switch
+    // default sama saja dengan else
+
+        switch(nilai){
+            case nilai > 85:
+                console.log(\`\${this.nama}, Kamu mendapat nilai A\`)
+                break;
+            case nilai > 75:
+                console.log(\`\${this.nama}, Kamu mendapat nilai B\`)
+                break;
+            case nilai > 60:
+                console.log(\`\${this.nama}, Kamu mendapat nilai C\`)
+                break;
+            default:
+                console.log(\`\${this.nama}, Kamu mendapat nilai D\`)
+                break;
+        }
+    }
+
+}
+
+const edgar = new UtsPbo("Edgar", 70)
+edgar.cek()
+`
+    },
+    {
+        materi: "6c",
+        namaProgram: "Perulangan For",
+        code:
+`
+class Perulangan{
+    main(){
+        for(let a = 1; a <=10; a++){
+            console.log(\`Saya berjanji akan mengerjakan semua challenge\`)
+        }
+    }
+}
+
+const coba = new Perulangan()
+
+coba.main()
+// Akan tampil 10 baris
+
+`
+    },
+    {
+        materi: "6d",
+        namaProgram: "Perulangan While & Do While",
+        code:
+`class Perulangan{
+    contohDoWhile(){
+        let itachi = 20
+        let sasuke = 10
+
+        do{
+            console.log("Sasuke lebih hebat dari Itachi")
+        }while(sasuke>itachi)
+
+        // Meski itachi lebih besar nilainya dari sasuke
+        // Namun "sasuke lebih hebat dari itachi" akan di tampilkan sekali
+    }
+
+    contohWhile(){
+        let itachi = 20
+        let sasuke = 10
+        
+        while(sasuke>itachi){
+            console.log("Sasuke lebih hebat dari Itachi")
+        }
+
+        // Sasuke lebih hebat dari itachi tidak akan ditampilkan ke layar
+    }
+
+    contohWhileLangsung(){
+        let escanor = 10
+        let batas = 20
+        
+    	console.log("=======================================")
+        console.log(\`Kekuatan escanor: \${escanor}\`)
+    	console.log("=======================================")
+
+        // selama nilai escanor kurang dari nilai batas
+
+        while (escanor < batas){
+            console.log(\`Kekuatan escanor bertambah menjadi \${escanor}\`)
+
+            escanor++ 
+            
+            // Tambah kekuatan escanor setiap perulangan
+            // sampai escanor melebihi nilai batas, maka perulangan berhenti
+        }
+
+        console.log(\`Kekuatan Escanor sekarang: \${escanor}\`)
+
+    }
+}
+
+const coba = new Perulangan()
+
+coba.contohDoWhile()
+coba.contohWhile()
+coba.contohWhileLangsung()
+`
+    },
+    {
+        materi: "6e",
+        namaProgram: "Program Restoran",
+        code:
+`// PROGRAM RESTORAN
+
+class Restoran{
+    nama
+    menu
+    totalBayar
+
+    constructor(nama){
+        this.nama = nama
+        this.totalBayar = 0
+        
+        this.menu =
+    		[
+        		{
+            		makanan: "ayam bakar",
+            		harga: 10_000
+        		},
+        		{
+            		makanan: "nasi bakar",
+            		harga: 12_000
+        		}
+    		
+    		]
+    }
+
+    welcome(){
+        console.log(\`Selamat datang di restoran \${this.nama}\`)
+        this.tampilkanMenu()
+    }
+
+    tampilkanMenu(){
+    	console.log("=======================================")
+        for(let i = 0; i <= this.menu.length-1; i++){
+            console.log(\`\${i}. \${this.menu[i].makanan} - Rp. \${this.menu[i].harga}\`)
+        }
+
+        this.berikanPilihan()
+    }
+
+    berikanPilihan(){
+    	console.log("=======================================")
+        let pilihan = prompt(\`Apa yang ingin anda pesan? \`)
+		console.log("=======================================")
+		
+        if(this.menu[pilihan]){
+            this.totalBayar += this.menu[pilihan].harga
+            console.log(\`Terima kasih telah memesan \${this.menu[pilihan].makanan}\`)
+            console.log(\`Harga pesanan adalah Rp. \${this.menu[pilihan].harga}\`)
+            console.log("=======================================")
+
+            let pesanLagi = prompt(\`Apakah anda ingin memesan makanan lagi? (y/n) \`)
+            
+            if(pesanLagi == "y") return this.tampilkanMenu()
+            return this.total()
+        }
+
+        console.log("Mohon berikan pesanan yang masuk akal!" )
+        this.berikanPilihan()
+    }
+
+    total(){
+        console.log(\`Terima kasih telah makan di restoran \${this.nama}\`)
+        console.log(\`Silahkan membayar Rp. \${this.totalBayar}\`)
+        console.log("=======================================")
+        console.log(\`Terima kasih\`)
+        return
+    }
+
+}
+
+const alelResto = new Restoran("Awal")
+alelResto.welcome()
+
+`
     }
 ]
 
