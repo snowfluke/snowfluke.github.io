@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "882e8406d95deac62b691732131e37bc"
+    "revision": "5d0c0e36b602f77def802081044de82b"
   },
   {
-    "url": "assets/css/0.styles.c9a867a4.css",
-    "revision": "7b58f13a8cd2862786284c1f38234af4"
+    "url": "assets/css/0.styles.dcc2931e.css",
+    "revision": "a508ca76537d21990e4517ba03e83287"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -42,8 +42,8 @@ self.__precacheManifest = [
     "revision": "a98a46d13bfb3779971ffa26d2442841"
   },
   {
-    "url": "assets/js/11.68ccd3dd.js",
-    "revision": "4806818fa5ed2df7ae2f963e96c21979"
+    "url": "assets/js/11.9eae28a2.js",
+    "revision": "cfaf710e6a549d115b8daed0c672bd45"
   },
   {
     "url": "assets/js/12.d93d4de5.js",
@@ -122,8 +122,8 @@ self.__precacheManifest = [
     "revision": "df94e05491e20aeadd71ca5b108cf037"
   },
   {
-    "url": "assets/js/3.c5a4816e.js",
-    "revision": "712c11bd4b11d3f53fd08cd9a0b9ade1"
+    "url": "assets/js/3.4f1cb116.js",
+    "revision": "23276b509f60f1187d527f249394c736"
   },
   {
     "url": "assets/js/30.42424759.js",
@@ -170,20 +170,20 @@ self.__precacheManifest = [
     "revision": "849ef8427b12dbdc38d84f8dc30437b6"
   },
   {
-    "url": "assets/js/app.ecbedb9c.js",
-    "revision": "8cdc64d89a3cecca0ad975cfa3203d53"
+    "url": "assets/js/app.812b6122.js",
+    "revision": "04a3179ea01e0cbac81c9dc60e0eb4e2"
   },
   {
     "url": "blog.html",
-    "revision": "5f115654f24efa6207fa33b15bb7dec1"
+    "revision": "7a77db6e6a7c7d573f09b3b609e7b849"
   },
   {
     "url": "index.html",
-    "revision": "669fd001e86e603bc9b4b8affe2911b3"
+    "revision": "bcdaf681153217fd15d04991cbea0664"
   },
   {
     "url": "js-playground.html",
-    "revision": "dd89cf78d35fb86af34cc59e87ee5cea"
+    "revision": "c5aeadea2a267cb02b910dc4b8a04d44"
   },
   {
     "url": "logo/antron-01.png",
@@ -235,15 +235,15 @@ self.__precacheManifest = [
   },
   {
     "url": "mini-project.html",
-    "revision": "20042765204a045459ec637f25f5198b"
+    "revision": "54029061866cc26eb740685189f761bb"
   },
   {
     "url": "oojs.html",
-    "revision": "74728e73e025cf548252e8eceaff5f10"
+    "revision": "cafc187ed889cd4e4a894519884993b9"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "5e159dbf81d26852f0c4091895cde89d"
+    "revision": "4dbd80e6caf9e334564e56be9abe8df8"
   },
   {
     "url": "oojs/0/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -271,7 +271,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "20e44972e5ef95b39c44970042826548"
+    "revision": "3ab7b8255f49d7a6dd01cfa824a97133"
   },
   {
     "url": "oojs/1/nodeindex.png",
@@ -283,7 +283,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "99f37da2a286e052a81477dd4bcef462"
+    "revision": "2f9872a38b3861273503a0290f3f9532"
   },
   {
     "url": "oojs/2/markus-spiske-jG8nlwLRZTM-unsplash.jpg",
@@ -291,7 +291,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/3-operator-javascript.html",
-    "revision": "b0e620e327c552fc7d6a5aa8a0ae154e"
+    "revision": "b639d5a6da10aa122d5961440f0ff6cf"
   },
   {
     "url": "oojs/3/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -299,7 +299,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/4-operator-javascript-lanjutan.html",
-    "revision": "5d7aeb9ecfa39b901b7612c4098180c4"
+    "revision": "a5c65e84891231e6e1227ff28ce2f169"
   },
   {
     "url": "oojs/4/irvan-smith-5eBW5GomfhY-unsplash.jpg",
@@ -307,7 +307,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/5-mengenal-function-dan-repl.html",
-    "revision": "579a42b746ba241b9eb0f731af24cb1a"
+    "revision": "09f29a5de89099fc626b672a1933c291"
   },
   {
     "url": "oojs/5/ferenc-almasi-EJSaEnVvZcg-unsplash.jpg",
@@ -319,23 +319,23 @@ self.__precacheManifest = [
   },
   {
     "url": "playground.js",
-    "revision": "a12882c03119d14fd12ed701c2762dcf"
+    "revision": "c5a5b6b9e31015a7e0ff59284be69fa7"
   },
   {
     "url": "portfolio.html",
-    "revision": "aae483a0d5b3cefc84c00255cc663d2e"
+    "revision": "8c72b85fa6aa74961eb4487372767d9f"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "bbd9d22eae8fcbe0e5ac0f6b67941e27"
+    "revision": "c33d6eed74d274f399bdc78ba2cc5a76"
   },
   {
     "url": "post/2021-04-13-cara-mengurangi-ukuran-apk-expo-react-native.html",
-    "revision": "65b73a8b3c88c851798837a7df1b63b2"
+    "revision": "e916450cf10ca49c90f4499a7a4ee00b"
   },
   {
     "url": "post/2021-04-14-cara-membuat-screenshot-kode-keren-di-VSCode.html",
-    "revision": "3b4c7ebadf73e6d127705e22e224a500"
+    "revision": "c06b5ec6d1d91c5103b038a243488da4"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

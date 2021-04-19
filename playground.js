@@ -20,7 +20,7 @@ function tab(event){
     indentSelected()
 }
 
-const sourceCode = [
+var sourceCode = [
     {
         materi: "1",
         namaProgram: "Program perkenalan nama",
