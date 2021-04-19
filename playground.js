@@ -401,19 +401,19 @@ class Test{
         let array1 = ['mobil', 'motor']
         let boolean1 = true
 
-        console.log('Perkalian string+string: ', string1+string1 )
+        console.log('Konkatinasi string+string: ', string1+string1 )
 
         // Operasi simbol + pada semua operator akan menjadi sebuah string
-        console.log('Perkalian string+angka: ', string1+angka1 )
+        console.log('Konkatinasi string+angka: ', string1+angka1 )
 
         // untuk array akan dipisahkan dengan ',' tiap elemennya
-        console.log('Perkalian string+array: ', string1+array1 )
+        console.log('Konkatinasi string+array: ', string1+array1 )
 
         // Untuk boolean, yaitu stringnya (bukan angka 1 atau 0)
-        console.log('Perkalian string+boolean: ', string1+boolean1 )
+        console.log('Konkatinasi string+boolean: ', string1+boolean1 )
         
         // Untuk object, akan di ubah menjadi string [object Object]
-        console.log('Perkalian string+object: ', string1+objek1 )
+        console.log('Konkatinasi string+object: ', string1+objek1 )
 
     }
 }
@@ -443,6 +443,68 @@ testCase2.main()
 
 const tsukishima = new Salam()
 tsukishima.halo()
+`
+    },
+    {
+        materi: '5a',
+        namaProgram: "Parameter dan Arguments" ,
+        code:
+`function tangkapBuah(buah1){
+    console.log(\`Buah yang jatuh ditangkap: \${buah1}\`)
+    let buahJatuh = [...arguments].join(', ')
+    // arguments merupakan bentuk array
+    // Diatas digunakan Spread Syntax (...) untuk memecah
+    // isi arguments ke dalam array baru lalu kita
+    // gunakan method join(',') untuk
+    // menggabungkan array dengan koma menjadi satu string
+
+    console.log(\`Seluruh buah yang jatuh: \${buahJatuh}\`)
+}
+
+tangkapBuah("apel","durian","manggis","karet")
+`
+    },
+    {
+        materi: "5b",
+        namaProgram: "Arrow Function",
+        code:
+`// Penulisan pertama
+// Langsung menuliskan parameter (jika ada) dalam kurung lalu diikuti
+// dengan tanda => dan kurung kurawal
+// Apabila kode dalam blok program lebih dari satu baris
+// harus menuliskan kurung kurawal dan return (opsional)
+const salam = () => {
+    let halo = \`Halo!\` //baris pertama
+    return halo //baris kedua
+}
+console.log(salam())
+
+// Penulisan kedua
+// apabila satu parameter, kurung () tidak perlu
+// apabila kode dalam { } hanya satu baris maka tanpa kurung { }
+// Otomatis return tanpa keyword return
+const salam2 = nama => \`Halo, \${nama}\`
+console.log(salam2("awal"))
+
+// Penulisan ketiga
+// apabila lebih dari satu parameter
+// maka wajib dikurung
+const salam3 = (nama,waktu) => \`Selamat \${waktu}, \${nama}!\`
+console.log(salam3("Rafiq", "Malam"))
+
+`
+    },
+    {
+        materi: '5c',
+        namaProgram: "Input Interrupt",
+        code:
+`
+// Membaca inputan dan memasukkanya ke variable nama
+let nama = prompt("Siapa nama kamu? ")
+
+console.log(\`Nama kamu adalah \${nama}!\`)
+
+// Cobalah bereksperimen
 `
     }
 ]
@@ -524,8 +586,9 @@ function insertLog(){
     insert(cmd)
 }
 
-function handleShortcut(){
-    
+function bracket(id){
+    let bracket = ["()","[]","{}","//",'""']
+    insert(bracket[id])
 }
 
 function insert(el){
@@ -590,3 +653,4 @@ function getCode(codeMaterial){
     bersihkan()
     editor.value = sourceCode[codeMaterial].code
 }
+
