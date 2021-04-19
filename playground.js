@@ -586,6 +586,6 @@ function copy(){
 }
 
 function getCode(codeMaterial){
-    bershikan()
+    bersihkan()
     editor.value = sourceCode[codeMaterial].code
 }
