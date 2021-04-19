@@ -66,3 +66,13 @@ button:hover {
 .shortCutWrapper .shortCut:hover{
     background-color: var(--textMutedColor);
 }
+
+.shortCutWrapper .shortCut2 {
+    font-size: 0.9rem;
+    background-color: var(--textMutedColor);
+    margin-bottom: 10px;
+}
+
+.shortCutWrapper .shortCut2:hover{
+    background-color: var(--textColor);
+}
