@@ -553,10 +553,10 @@ class UtsPbo{
     }
 }
 
-const edgar = new UtsPbo("Edgar", 70)
-edgar.cek1()
-edgar.cek2()
-edgar.cek3()
+const Ani = new UtsPbo("Ani", 70)
+Ani.cek1()
+Ani.cek2()
+Ani.cek3()
 
 `
     },
@@ -597,8 +597,8 @@ edgar.cek3()
 
 }
 
-const edgar = new UtsPbo("Edgar", 70)
-edgar.cek()
+const Ani = new UtsPbo("Ani", 70)
+Ani.cek()
 `
     },
     {
