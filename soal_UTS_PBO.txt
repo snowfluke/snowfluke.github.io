@@ -11,18 +11,20 @@ Sifat Ujian: Praktek
 1. Membaca doa sebelum mengerjakan soal
 2. Dilarang bekerja sama dalam bentuk apapun dan dengan siapapun
 3. Jujur pada diri sendiri merupakan perilaku akademik mahasiswa
-4. Praktek berdasarkan seluruh materi yang tersedia di menu [OOJS](oojs.html)
+4. Praktek berdasarkan seluruh materi yang tersedia di menu [OOJS](https://snowfluke.github.io/oojs.html)
 5. File praktek challenge (1-6) dibuat dalam satu folder (rar/zip) beserta file program UTS
-6. Total file = 7 file (.js)
-7. Format penamaan file program UTS: namaLengkap_nim.js
+6. File Challenge 5 ditulis menggunakan komentar
+7. File Challenge 6 berbeda dengan file program UTS
+8. Format penamaan file challenge: Nama_ch_noChallenge.js
+Contoh: awalAriansyah_ch_1.js
+9. Format penamaan file program UTS: namaLengkap_nim.js
 Contoh: awalAriansyah_1995520019.js
-8. File Challenge 6 berbeda dengan file program UTS
-9. File Challenge 5 ditulis menggunakan komentar
-10. Format penamaan folder: UTS_PBO_Nama_NIM.zip
-Contoh: UTS_PBO_AwalAriansyah_195520019
-11. Beri penjelasan kode programmu menggunakan komentar untuk mendapatkan nilai lebih
-12. Kumpulkan file ke link google form yang telah disediakan
-13. Batas Waktu Pengumpulan: 28 April 2021, Pukul 22:00 WIB
+10. Total file = 7 file (.js)
+11. Format penamaan folder: UTS_PBO_Nama_NIM.zip
+Contoh: UTS_PBO_AwalAriansyah_195520019.zip
+12. Beri penjelasan kode programmu menggunakan komentar untuk mendapatkan nilai lebih
+13. Kumpulkan file ke link google form yang telah disediakan
+14. Batas Waktu Pengumpulan: 28 April 2021, Pukul 22:00 WIB
 Toleransi 15 Menit
 
 
