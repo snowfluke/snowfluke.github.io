@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "46084e385ef4fb20eb8d6634036c5635"
+    "revision": "de93045b2e5410caf52cd7f87f90d998"
   },
   {
     "url": "assets/css/0.styles.78b597e8.css",
@@ -102,20 +102,20 @@ self.__precacheManifest = [
     "revision": "7fbc8afaec3311aff2fcf5a3fcf076af"
   },
   {
-    "url": "assets/js/25.941f2dbb.js",
-    "revision": "ab15b45302887733706bd5e91c97fbaa"
+    "url": "assets/js/25.21805f97.js",
+    "revision": "b2f07479b29bb5347d6f12128892fcba"
   },
   {
-    "url": "assets/js/26.8042a975.js",
-    "revision": "8050f950e6b95bea6cd1159f59d554ea"
+    "url": "assets/js/26.b8cec795.js",
+    "revision": "f63c9a24a14f3e8ffa7e9e2b0d708a36"
   },
   {
-    "url": "assets/js/27.9399a436.js",
-    "revision": "e2442c64a09ba13bf846efc9ddd32180"
+    "url": "assets/js/27.6e943210.js",
+    "revision": "0480379e60f212d675a9d415fd75e06a"
   },
   {
-    "url": "assets/js/28.61610f62.js",
-    "revision": "98e72bb1635a7c78a0063fe479446f5a"
+    "url": "assets/js/28.a5270516.js",
+    "revision": "427f8fedb85c0bea52b4637e242428d4"
   },
   {
     "url": "assets/js/29.35c969ea.js",
@@ -126,16 +126,16 @@ self.__precacheManifest = [
     "revision": "f5d5236b4552365b409287738ae415ba"
   },
   {
-    "url": "assets/js/30.b01450c4.js",
-    "revision": "a64c0251b68813876ab078aa200833e3"
+    "url": "assets/js/30.a06b7677.js",
+    "revision": "67a26f8d8ade4bc840cf47fc6456b05a"
   },
   {
-    "url": "assets/js/31.7f086546.js",
-    "revision": "8ef514e9eb60a87dec316b5e680c77d4"
+    "url": "assets/js/31.79de5075.js",
+    "revision": "3197d3ae04dd5652d1ba7837ee97c090"
   },
   {
-    "url": "assets/js/32.71a2a120.js",
-    "revision": "ddbc38d2d4588be7a377dc9866bf82b9"
+    "url": "assets/js/32.3ea5f811.js",
+    "revision": "f4b79be96c347a96624e8fa3b688a9be"
   },
   {
     "url": "assets/js/33.da582c86.js",
@@ -174,20 +174,20 @@ self.__precacheManifest = [
     "revision": "3069a5d4045f41fbfc505adaa5a30e60"
   },
   {
-    "url": "assets/js/app.4da8e8bc.js",
-    "revision": "6ac709edb11c836c51d3955d749e1626"
+    "url": "assets/js/app.31b819a8.js",
+    "revision": "356dbdbec929cea08640f99a41b6f442"
   },
   {
     "url": "blog.html",
-    "revision": "a8e7ab301c3e5509d03cdedc7111e662"
+    "revision": "35f2cc91ff1964d6a96e01c581fd1c21"
   },
   {
     "url": "index.html",
-    "revision": "a7cb33b275af5addb169620014ad84d2"
+    "revision": "baf76a13f93b5148560a2a326ff440f2"
   },
   {
     "url": "js-playground.html",
-    "revision": "6014b98837c65c1668cf9575586af652"
+    "revision": "fa410e763d0bc1307c2a2fc17a86325f"
   },
   {
     "url": "logo/antron-01.png",
@@ -239,15 +239,15 @@ self.__precacheManifest = [
   },
   {
     "url": "mini-project.html",
-    "revision": "446306a0cf1e8b8e84e22967e4ef9e86"
+    "revision": "a919f745df69f1c809e4dfcd499d99e0"
   },
   {
     "url": "oojs.html",
-    "revision": "0081b04789ac8330b816fd56def5f854"
+    "revision": "a19412ebf3cb22c24271e76c71676703"
   },
   {
     "url": "oojs/0-persiapan-lingkungan.html",
-    "revision": "d73124ccbb8d60e18fc88642309edf15"
+    "revision": "ea5a9a73f9f37e0d6a02a12a77180756"
   },
   {
     "url": "oojs/0/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -279,7 +279,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/1-variable-pada-javascript.html",
-    "revision": "49e27b999042e76acb045051d53b3e8d"
+    "revision": "04b1dac1cc32535f90e656c26c35313f"
   },
   {
     "url": "oojs/1/nodeindex.png",
@@ -291,7 +291,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/2-tipe-data-javascript.html",
-    "revision": "2b06447ed854f9e745d2a9e0ee03954a"
+    "revision": "0a5f4d2089c2b47c777f7b8fe6fbdfd0"
   },
   {
     "url": "oojs/2/markus-spiske-jG8nlwLRZTM-unsplash.jpg",
@@ -299,7 +299,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/3-operator-javascript.html",
-    "revision": "e24901f0194511b0df8086d2f5b03f31"
+    "revision": "b4374668c85fbc5e37426f728df96efe"
   },
   {
     "url": "oojs/3/christopher-robin-ebbinghaus-pgSkeh0yl8o-unsplash.jpg",
@@ -307,7 +307,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/4-operator-javascript-lanjutan.html",
-    "revision": "587ecee560c46adf06ab3bb12611427c"
+    "revision": "40a162da9409ce679e0135b1945f7f3c"
   },
   {
     "url": "oojs/4/irvan-smith-5eBW5GomfhY-unsplash.jpg",
@@ -315,7 +315,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/5-mengenal-function-dan-input-interrupt.html",
-    "revision": "a12a8d7aa2a21f0bd4b7fc743515564a"
+    "revision": "febb56fd661560956f3a11d096b4efa9"
   },
   {
     "url": "oojs/5/ferenc-almasi-EJSaEnVvZcg-unsplash.jpg",
@@ -327,7 +327,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/6-struktur-kontrol-dasar-javascript.html",
-    "revision": "8456b0230516491ab8322f1f7322791c"
+    "revision": "8f0d9db6aed178ec1c6e63e3234ed01c"
   },
   {
     "url": "oojs/6/irvan-smith-cwqG1N1AtI0-unsplash.jpg",
@@ -335,7 +335,7 @@ self.__precacheManifest = [
   },
   {
     "url": "oojs/7-soal-uts-pbo.html",
-    "revision": "a14754dbe3beb38891e292b6a259a5e9"
+    "revision": "5625c497d1bde63621c7c4830d4541ad"
   },
   {
     "url": "playground.css",
@@ -347,19 +347,19 @@ self.__precacheManifest = [
   },
   {
     "url": "portfolio.html",
-    "revision": "07f7bcf1b5af10aa953bf76739f6209f"
+    "revision": "4656dd7de3b28f419c7d79206187dac2"
   },
   {
     "url": "post/2021-04-03-belajar-dengan-teknik-seperti-nelayan.html",
-    "revision": "29f8ba8a890613abe698fa622c6a42e0"
+    "revision": "c0caf00780acf60840ab72f94157ae9d"
   },
   {
     "url": "post/2021-04-13-cara-mengurangi-ukuran-apk-expo-react-native.html",
-    "revision": "493d0d5b252ac1985037b699e9c10573"
+    "revision": "c1787c2461e219ccf06f84d3115bc514"
   },
   {
     "url": "post/2021-04-14-cara-membuat-screenshot-kode-keren-di-VSCode.html",
-    "revision": "9f673c6e45112b1fa8dfef534600572c"
+    "revision": "cf1e91d3df7e9edbf3497402c9112e11"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
