@@ -9,7 +9,7 @@ Lokasi: Majenang, Cilacap, Indonesia
 Email: awalariansyah7@gmail.com
 Portfolio: https://snowfluke.github.io/
 LinkedIn: https://linkedin.com/in/awalariansyah
-Facebook: https://facebook.com/uso.taberu
+Facebook: https://facebook.com/awalAriansyah
 Github: https://github.com/snowfluke
 Codewars: https://www.codewars.com/users/AlterRetla
 
@@ -29,7 +29,7 @@ KEMAMPUAN
 - Electron
 
 * Lainnya
-- Linux, Git, VS Code, Ms. Office, LibreOffice, Illustrator, Photoshop
+- Bahasa Inggris, Linux, Git, Ms. Office, LibreOffice, Illustrator, Photoshop, Figma
 
 =============================================
 PENGALAMAN
@@ -59,7 +59,7 @@ PENDIDIKAN
 --- Bahasa Indonesia: 94
 --- Bahasa Ingris: 92
 --- Matematika: 92.5
---- Komptenesi: 77.5
+--- Kompetensi: 77.5
 
 * Teknik Informatika / STMIK Komputama Majenang
 - 2019 - Sekarang
@@ -88,12 +88,13 @@ PROYEK
 - Pembuatan Bot untuk server perkuliahan dalam Discord guna menunjang kegiatan perkuliahan seperti pengingat tugas, jadwal, pembuatan grup secara acak, pencarian mahasiswa dan sebagainya.
 - Teknologi: Discord.js, Javascript & Local Storage
 
-* Majenang Market: Dalam Pengembangan
-- Proyek pembuatan web e-commerce dengan ruang lingkup kecamatan dengan tujuan untuk digitalisasi pasar lokal dikarenakan sulitnya persaingan usaha lokal dalam pasar digital nasional, serta menumbuhkan potensi usaha-usaha menengah ke bawah di Kecamatan Majenang.
-- Teknologi: HTML5, CSS3, Vue.js, Firebase, TailwindCSS
+* Presentia: http://presentia.stmikkomputama.ac.id/
+- Layanan pihak ketiga berupa sistem yang menangani absensi perkuliahan yang mengintegrasikan bot discord (server) dan aplikasi mobile android Presentia (client) dalam pengoperasiannya. Menangani absensi mode lokasi, daring, sakit, izin, absen titipan, penginformasian pengumuman, tugas dan perubahan jadwal secara realtime.
+- Teknologi: React Native, Firebase, Discord.js, PHP, TailwindCSS
+
 
 =============================================
-AKTIFITAS DAN PENCAPAIAN
+AKTIVITAS DAN PENCAPAIAN
 =============================================
 
 * Juara 2 LKS Web Design Kabupaten Cilacap 2018
