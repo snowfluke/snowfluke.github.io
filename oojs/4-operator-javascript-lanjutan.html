@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>4. [OOJS] Operator Javascript Lanjutan | Awal Ariansyah</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/awalLogo.webp">
+    <link rel="manifest" href="/manifest.json">
+    <script crossorigin="anonymous" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1093260067267168"></script>
+    <meta name="description" content="Melanjutkan pembahasan operator yang berfokus untuk operasi antar tipe data">
+    <meta property="article:published_time" content="2021-04-14T00:00:00.000Z">
+    <meta property="og:site_name" content="Awal Ariansyah">
+    <meta property="og:title" content="4. [OOJS] Operator Javascript Lanjutan">
+    <meta property="og:description" content="Melanjutkan pembahasan operator yang berfokus untuk operasi antar tipe data">
+    <meta property="og:type" content="Artikel">
+    <meta property="og:url" content="/oojs/4-operator-javascript-lanjutan.html">
+    <meta property="og:image" content="/oojs/4/irvan-smith-5eBW5GomfhY-unsplash.jpg">
+    <meta name="twitter:title" content="4. [OOJS] Operator Javascript Lanjutan">
+    <meta name="twitter:description" content="Melanjutkan pembahasan operator yang berfokus untuk operasi antar tipe data">
+    <meta name="twitter:url" content="/oojs/4-operator-javascript-lanjutan.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/oojs/4/irvan-smith-5eBW5GomfhY-unsplash.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="OOJS, Object Oriented Programming, Javascript, Operator">
+    <meta property="article:tag" content="OOJS">
+    <meta name="keywords" content="Melanjutkan pembahasan operator yang berfokus untuk operasi antar tipe data">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.7927b8b6.css" as="style"><link rel="preload" href="/assets/js/app.95d95f24.js" as="script"><link rel="preload" href="/assets/js/2.bc845ed8.js" as="script"><link rel="preload" href="/assets/js/26.e0363a59.js" as="script"><link rel="preload" href="/assets/js/9.3f43ddd9.js" as="script"><link rel="preload" href="/assets/js/16.a8484fd7.js" as="script"><link rel="preload" href="/assets/js/13.bb7bfba6.js" as="script"><link rel="prefetch" href="/assets/js/10.afc65396.js"><link rel="prefetch" href="/assets/js/11.637a401d.js"><link rel="prefetch" href="/assets/js/12.4089d0ff.js"><link rel="prefetch" href="/assets/js/14.c71270e1.js"><link rel="prefetch" href="/assets/js/15.3e63a90d.js"><link rel="prefetch" href="/assets/js/17.1f7a5e87.js"><link rel="prefetch" href="/assets/js/18.b3b49442.js"><link rel="prefetch" href="/assets/js/19.3e8c2138.js"><link rel="prefetch" href="/assets/js/20.f4f89b1b.js"><link rel="prefetch" href="/assets/js/21.6d52f87f.js"><link rel="prefetch" href="/assets/js/22.fac3a6f4.js"><link rel="prefetch" href="/assets/js/23.7f43c327.js"><link rel="prefetch" href="/assets/js/24.6f3a0811.js"><link rel="prefetch" href="/assets/js/25.6b552c8f.js"><link rel="prefetch" href="/assets/js/27.b17b6ae1.js"><link rel="prefetch" href="/assets/js/28.079cb985.js"><link rel="prefetch" href="/assets/js/29.c4aa4ca6.js"><link rel="prefetch" href="/assets/js/3.5c87ac36.js"><link rel="prefetch" href="/assets/js/30.221cf309.js"><link rel="prefetch" href="/assets/js/31.f0c53358.js"><link rel="prefetch" href="/assets/js/32.fed4fac4.js"><link rel="prefetch" href="/assets/js/33.fb0689c5.js"><link rel="prefetch" href="/assets/js/34.89e549b2.js"><link rel="prefetch" href="/assets/js/35.3cce286a.js"><link rel="prefetch" href="/assets/js/36.ba6521b8.js"><link rel="prefetch" href="/assets/js/37.4714c670.js"><link rel="prefetch" href="/assets/js/38.217ad21b.js"><link rel="prefetch" href="/assets/js/4.ca6998b9.js"><link rel="prefetch" href="/assets/js/5.c2182c3f.js"><link rel="prefetch" href="/assets/js/6.42c5670b.js"><link rel="prefetch" href="/assets/js/7.e8e0f007.js"><link rel="prefetch" href="/assets/js/8.42477c16.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7927b8b6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/awalLogo.webp" alt="Awal Ariansyah" class="logo"> <span class="site-name can-hide">Awal Ariansyah</span></a> <div class="links"><!----> <div class="user-settings"><a href="#" class="settings-button"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 384 384" xml:space="preserve" class="settings-icon" style="enable-background:new 0 0 384 384;"><path fill="currentColor" d="M192,0C85.973,0,0,85.973,0,192s85.973,192,192,192c17.707,0,32-14.293,32-32c0-8.32-3.093-15.787-8.32-21.44
+			c-5.013-5.653-8-13.013-8-21.227c0-17.707,14.293-32,32-32h37.653c58.88,0,106.667-47.787,106.667-106.667
+			C384,76.373,298.027,0,192,0z M74.667,192c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S92.373,192,74.667,192z
+			 M138.667,106.667c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S156.373,106.667,138.667,106.667z M245.333,106.667
+			c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S263.04,106.667,245.333,106.667z M309.333,192
+			c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S327.04,192,309.333,192z"></path></svg></a> <div class="user-settings-menu" style="display:none;"><div class="theme-options"><!----> <ul class="color-theme-options"><li><a href="#" class="default-theme"></a></li> <li><a href="#" class="green-theme"></a></li><li><a href="#" class="red-theme"></a></li><li><a href="#" class="yellow-theme"></a></li></ul> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Dark theme</label> <input id="dark-theme-toggle" type="checkbox"></div> <div class="ignore-themes-options toggle-option"><label for="ignore-themes-toggle">Ignore other themes</label> <input id="ignore-themes-toggle" type="checkbox"></div> <!----></div></div></div> <!----> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Beranda
+</a></div><div class="nav-item"><a href="/portfolio.html" class="nav-link">
+  Portfolio
+</a></div><div class="nav-item"><a href="/mini-project.html" class="nav-link">
+  Mini Project
+</a></div><div class="nav-item"><a href="/blog.html" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="/snowfluke-software-solution.html" class="nav-link">
+  SSS
+</a></div><div class="nav-item"><a href="/js-playground.html" class="nav-link">
+  OOJS
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Beranda
+</a></div><div class="nav-item"><a href="/portfolio.html" class="nav-link">
+  Portfolio
+</a></div><div class="nav-item"><a href="/mini-project.html" class="nav-link">
+  Mini Project
+</a></div><div class="nav-item"><a href="/blog.html" class="nav-link">
+  Blog
+</a></div><div class="nav-item"><a href="/snowfluke-software-solution.html" class="nav-link">
+  SSS
+</a></div><div class="nav-item"><a href="/js-playground.html" class="nav-link">
+  OOJS
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>4. [OOJS] Operator Javascript Lanjutan</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/oojs/4-operator-javascript-lanjutan.html#operasi-aritmatika-antar-tipe-data" class="sidebar-link">Operasi aritmatika antar tipe data</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/oojs/4-operator-javascript-lanjutan.html#operator-aritmatika-number" class="sidebar-link">Operator aritmatika number</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/oojs/4-operator-javascript-lanjutan.html#perilaku-boolean" class="sidebar-link">Perilaku boolean</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/oojs/4-operator-javascript-lanjutan.html#operator-konkatinasi" class="sidebar-link">Operator konkatinasi</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/oojs/4-operator-javascript-lanjutan.html#konversi-string-dan-number" class="sidebar-link">Konversi string dan number</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/oojs/4-operator-javascript-lanjutan.html#konversi-menggunakan-fungsi" class="sidebar-link">Konversi menggunakan fungsi</a></li><li class="sidebar-sub-header"><a href="/oojs/4-operator-javascript-lanjutan.html#konversi-menggunakan-operasi" class="sidebar-link">Konversi menggunakan operasi</a></li></ul></li><li><a href="/oojs/4-operator-javascript-lanjutan.html#menggunakan-variable-di-dalam-string" class="sidebar-link">Menggunakan variable di dalam string</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/oojs/4-operator-javascript-lanjutan.html#challenge" class="sidebar-link">Challenge</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><div class="post-header"><div><a href="/oojs" class="router-link-active">
+    Kembali
+  </a></div> <h1>4. [OOJS] Operator Javascript Lanjutan</h1>
+	Photo by
+	<a href="https://unsplash.com/@mr_vero?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Irvan Smith</a>
+	on
+	<a href="https://unsplash.com/s/photos/javascript?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a> <img src="/oojs/4/irvan-smith-5eBW5GomfhY-unsplash.jpg" alt="Javascript oleh Irvan Smith" width="100%"> <div class="adsContainer"><ins data-ad-client="ca-pub-1093260067267168" data-ad-slot="7797539595" data-ad-format="auto" data-full-width-responsive="true" class="adsbygoogle" style="display:block"></ins></div> <script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script></div> <h2 id="operasi-aritmatika-antar-tipe-data"><a href="#operasi-aritmatika-antar-tipe-data" class="header-anchor">#</a> Operasi aritmatika antar tipe data</h2> <p>Operasi antar tipe data merupakan operasi antara 2 buah operand atau lebih yang memiliki tipe data yang berbeda. Berikut adalah behavior atau perilaku operasi aritmatika antar tipe data berbeda yang wajib kalian ketahui dalam javascript.</p> <div class="custom-block tip"><p class="custom-block-title">PENTING</p> <p>Simbol <code>+</code> memiliki dua kegunaan yaitu sebagai operator artimatika untuk penjumlahan dan sebagai <b>Konkatinasi</b> atau operator penggabungan string.</p></div> <h2 id="operator-aritmatika-number"><a href="#operator-aritmatika-number" class="header-anchor">#</a> Operator aritmatika number</h2> <p>Semua operator aritmatika selain <code>+</code> merupakan operator milik tipe data number. Jika tipe data lain seperti <code>string</code>, <code>object</code>, <code>array</code> di kenai operasi <code>-</code>, <code>*</code>, <code>/</code> dan <code>%</code> maka akan menghasilkan output <code>NaN</code> atau <b>Not a Number</b></p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// Operasi aritmatika number</span>
+<span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">{</span>
+	<span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">let</span> angka1 <span class="token operator">=</span> <span class="token number">7</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> angka2 <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> string1 <span class="token operator">=</span> <span class="token string">&quot;cortana&quot;</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> objek1 <span class="token operator">=</span> <span class="token punctuation">{</span> nama<span class="token operator">:</span> <span class="token string">&quot;sasuke&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> array1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;mobil&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;motor&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Perkalian angka*angka: &quot;</span><span class="token punctuation">,</span> angka1 <span class="token operator">*</span> angka2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token comment">// Operasi simbol -, *, / dan % dibawah akan menghasilkan NaN</span>
+		<span class="token comment">// Karena operator tersebut khusus untuk angka</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Perkalian angka*string: &quot;</span><span class="token punctuation">,</span> angka1 <span class="token operator">*</span> string1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Perkalian angka*array: &quot;</span><span class="token punctuation">,</span> angka1 <span class="token operator">*</span> array1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Perkalian angka*object: &quot;</span><span class="token punctuation">,</span> angka1 <span class="token operator">*</span> objek1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> testCase <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Test</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+testCase<span class="token punctuation">.</span><span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><h2 id="perilaku-boolean"><a href="#perilaku-boolean" class="header-anchor">#</a> Perilaku boolean</h2> <p>Apabila tipe data boolean dikenai operasi aritmatika, maka secara otomatis mengkonversi nilai jika <code>true</code> maka menjadi <code>1</code> dan jika <code>false</code> akan menjadi <code>0</code>.</p> <h2 id="operator-konkatinasi"><a href="#operator-konkatinasi" class="header-anchor">#</a> Operator konkatinasi</h2> <p>Operator konkatinasi adalah operator yang bisa digunakan di seluruh tipe data dengan tujuan untuk menggabungkan string. Semua tipe data apabila diberikan operasi <code>+</code> dengan sebuah string, maka akan berubah menjadi string.</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token comment">// Operator konkatinasi</span>
+<span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">{</span>
+	<span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">let</span> string1 <span class="token operator">=</span> <span class="token string">&quot;cortana&quot;</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> angka1 <span class="token operator">=</span> <span class="token number">7</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> objek1 <span class="token operator">=</span> <span class="token punctuation">{</span> nama<span class="token operator">:</span> <span class="token string">&quot;sasuke&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> array1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&quot;mobil&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;motor&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> boolean1 <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Konkatinasi string+string: &quot;</span><span class="token punctuation">,</span> string1 <span class="token operator">+</span> string1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token comment">// Operasi simbol + pada semua operator akan menjadi sebuah string</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Konkatinasi string+angka: &quot;</span><span class="token punctuation">,</span> string1 <span class="token operator">+</span> angka1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token comment">// untuk array akan dipisahkan dengan ',' tiap elemennya</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Konkatinasi string+array: &quot;</span><span class="token punctuation">,</span> string1 <span class="token operator">+</span> array1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token comment">// Untuk boolean, yaitu stringnya (bukan angka 1 atau 0)</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Konkatinasi string+boolean: &quot;</span><span class="token punctuation">,</span> string1 <span class="token operator">+</span> boolean1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token comment">// Untuk object, akan di ubah menjadi string [object Object]</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Konkatinasi string+object: &quot;</span><span class="token punctuation">,</span> string1 <span class="token operator">+</span> objek1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> testCase2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Test</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+testCase2<span class="token punctuation">.</span><span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><h2 id="konversi-string-dan-number"><a href="#konversi-string-dan-number" class="header-anchor">#</a> Konversi string dan number</h2> <p>Kalian bisa mengubah tipe data string menjadi number atau sebaliknya dengan menggunakan fungsi .parseInt() dan .toString() atau dengan menggunakan operator <code>+</code> dan <code>-</code> dengan cepat.</p> <h3 id="konversi-menggunakan-fungsi"><a href="#konversi-menggunakan-fungsi" class="header-anchor">#</a> Konversi menggunakan fungsi</h3> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">{</span>
+	<span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token string">&quot;456&quot;</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>
+
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Tipe data a: &quot;</span><span class="token punctuation">,</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Tipe data b: &quot;</span><span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token comment">// Mengubah a dari string ke number</span>
+		<span class="token keyword">let</span> c <span class="token operator">=</span> <span class="token function">parseInt</span><span class="token punctuation">(</span><span class="token number">456</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token comment">// Mengubah b dari number ke string</span>
+		<span class="token keyword">let</span> d <span class="token operator">=</span> b<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Setelah diubah&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Tipe data a: &quot;</span><span class="token punctuation">,</span> c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Tipe data b: &quot;</span><span class="token punctuation">,</span> d<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> testCase3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Test</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+testCase3<span class="token punctuation">.</span><span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>Jika kalian ingin mengubah string menjadi bilangan bulat, gunakan <code>parseInt()</code> dan untuk bilangan pecahan gunakan <code>parseFloat()</code></p></div> <h3 id="konversi-menggunakan-operasi"><a href="#konversi-menggunakan-operasi" class="header-anchor">#</a> Konversi menggunakan operasi</h3> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">{</span>
+	<span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token string">&quot;456&quot;</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> b <span class="token operator">=</span> <span class="token number">123</span><span class="token punctuation">;</span>
+
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Tipe data a: &quot;</span><span class="token punctuation">,</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Tipe data b: &quot;</span><span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token comment">// Mengubah a dari string ke number</span>
+		<span class="token comment">// Ingat sifat diatas, -, /, *, % hanya milik number</span>
+		<span class="token keyword">let</span> c <span class="token operator">=</span> <span class="token operator">-</span>a<span class="token punctuation">;</span>
+
+		<span class="token comment">// Mengubah b dari number ke string</span>
+		<span class="token comment">// Ingat sifat diatas, semua yang di + string akan menjadi string</span>
+		<span class="token keyword">let</span> d <span class="token operator">=</span> b <span class="token operator">+</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Setelah diubah&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Tipe data a: &quot;</span><span class="token punctuation">,</span> c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Tipe data b: &quot;</span><span class="token punctuation">,</span> d<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> testCase3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Test</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+testCase3<span class="token punctuation">.</span><span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h2 id="menggunakan-variable-di-dalam-string"><a href="#menggunakan-variable-di-dalam-string" class="header-anchor">#</a> Menggunakan variable di dalam string</h2> <p>Jika kalian ingin membuat string dinamis yang akan berubah sesuai inputan user, misalkan Halo <b>nama</b>, selamat datang. Maka diperlukan sebuah variable dan variable tersebut harus digabungkan.</p> <p>Terdapat dua cara untuk menggabungkan variable dengan string.</p> <ol><li>Menggunakan konkatinasi</li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">class</span> <span class="token class-name">Salam</span> <span class="token punctuation">{</span>
+	<span class="token function">halo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token comment">// Penggabungan dengan menggunakan konkatinasi (+)</span>
+		<span class="token keyword">let</span> nama <span class="token operator">=</span> <span class="token string">&quot;Tsukishima&quot;</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> tinggi <span class="token operator">=</span> <span class="token number">190</span><span class="token punctuation">;</span>
+
+		<span class="token keyword">let</span> salam <span class="token operator">=</span> <span class="token string">&quot;Halo &quot;</span> <span class="token operator">+</span> nama <span class="token operator">+</span> <span class="token string">&quot;, tinggimu adalah &quot;</span> <span class="token operator">+</span> tinggi <span class="token operator">+</span> <span class="token string">&quot;cm&quot;</span><span class="token punctuation">;</span>
+
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>salam<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> tsukishima <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Salam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+tsukishima<span class="token punctuation">.</span><span class="token function">halo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><ol start="2"><li>Menggunakan template literal (direkomendasikan)</li></ol> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">class</span> <span class="token class-name">Salam</span> <span class="token punctuation">{</span>
+	<span class="token function">halo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token comment">// Penggabungan dengan menggunakan template literal</span>
+		<span class="token comment">// yaitu petik (`) backtick</span>
+		<span class="token comment">// kemudian mengakses variable di dalam ${}</span>
+
+		<span class="token keyword">let</span> nama <span class="token operator">=</span> <span class="token string">&quot;Tsukishima&quot;</span><span class="token punctuation">;</span>
+		<span class="token keyword">let</span> tinggi <span class="token operator">=</span> <span class="token number">190</span><span class="token punctuation">;</span>
+
+		<span class="token keyword">let</span> salam <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Halo </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>nama<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">, tinggimu adalah </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>tinggi<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">cm</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+		console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>salam<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> tsukishima <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Salam</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+salam<span class="token punctuation">.</span><span class="token function">halo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>Untuk menyisipkan variable di tipe data lainnya cukup seperti biasa yaitu memanggil nama variablenya</p></div> <h2 id="challenge"><a href="#challenge" class="header-anchor">#</a> Challenge</h2> <p>Dibawah ini merupakan kode yang saya buat ulang milik Nurfadhli Abdurahman Hakim di Challenge sebelumnya. Terdapat <b>5 error</b> yang saya sisipkan. Tugas kalian adalah memperbaiki kode tersebut dengan ketentuan sebagai berikut:</p> <ol><li>Dilarang melihat jawaban/komentar yang lain, kerjakan semampu kalian untuk refleksi diri</li> <li>Nama yang ditampilkan di layar adalah nama kalian</li> <li>Gunakan materi-materi sebelumnya sebagai acuan</li> <li>Gunakan pula pencarian google untuk mencari pesan error yang ada</li> <li>Jika sudah mentok dan masih terdapat error, tuliskan jumlah error dan <b>Screenshot errornya</b></li> <li>Screenshot hasil kalian seperti dalam artikel ini <a href="https://snowfluke.github.io/post/2021-04-14-cara-membuat-screenshot-kode-keren-di-VSCode.html#vscode" target="_blank" rel="noopener noreferrer">Cara Membuat Screenshot Kode Keren di VSCode<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ol> <div class="custom-block tip"><p class="custom-block-title">Belajar Debugging</p> <p>Perhatikan pesan error saat program dijalankan, pesan error tersebut akan memberi tahu lokasi dan apa yang salah dari program tersebut. Misalnya <i>Referrence error 'awal' is not defined <b>19:10</b></i>, berarti error terletak di baris ke 19 dimana referensi ke variable 'awal' tidak ditemukan.</p></div> <p>Hasil akhir dari program harus sama seperti di yang tertera dibagian bawah kode berikut dengan mengganti namaDepan dan namaBelakang sesuai kalian.<br> <b>HATI-HATI! NILAI GAJI NYA HARUS SAMA</b></p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">class</span> <span class="token class-name">Karyawan</span> <span class="token punctuation">{</span>
+    nama<span class="token punctuation">,</span>
+    gaji
+    lamaKerja
+    tingkahLaku
+
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">nama<span class="token punctuation">,</span> lamaKerja<span class="token punctuation">,</span> tingkahLaku</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>nama <span class="token operator">=</span> <span class="token operator">-</span>nama<span class="token punctuation">,</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>lamaKerja <span class="token operator">=</span> lamaKerja<span class="token punctuation">,</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>tingkahLaku <span class="token operator">=</span> tingkahLaku
+    <span class="token punctuation">}</span>
+
+    <span class="token function">gajian</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">let</span> gajiPokok <span class="token operator">=</span> <span class="token number">3_000_000</span>
+        <span class="token keyword">let</span> rumusGaji <span class="token operator">=</span> gajiPokok <span class="token operator">+</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>lamaKerja <span class="token operator">*</span> <span class="token number">100000</span><span class="token punctuation">)</span>
+
+        <span class="token keyword">let</span> gajiAkhir <span class="token operator">=</span> rumusGaji
+
+        <span class="token keyword">if</span><span class="token punctuation">(</span>tingkahLaku<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>tingkahLaku <span class="token operator">=</span> <span class="token string">'baik'</span>
+            gajiAkhir <span class="token operator">+=</span> <span class="token number">250000</span>
+        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>tingkahLaku <span class="token operator">=</span> <span class="token string">'buruk'</span>
+            gajiAkhir <span class="token operator">+=</span> <span class="token number">100000</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">let</span> selamat <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Selamat! </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>nama<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">, sekarang adalah hari gajianmu! XD :D</span><span class="token template-punctuation string">`</span></span>
+
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>selamat<span class="token punctuation">)</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'===================================='</span><span class="token punctuation">)</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Karena kamu telah bekerja selama </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>lamaKerja<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> bulan</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Dan berperilaku </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>tingkahLaku<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Maka gajimu adalah Rp. &quot;</span><span class="token operator">+</span> gajiAkhir <span class="token operator">+</span><span class="token string">' rupiah'</span><span class="token punctuation">)</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'===================================='</span><span class="token punctuation">)</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">' '</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> namaDepan <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Karyawan</span><span class="token punctuation">(</span><span class="token string">&quot;namaDepan&quot;</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> namaBelakang <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Karyawan</span><span class="token punctuation">(</span><span class="token string">&quot;namaBelakang&quot;</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span>
+
+namaDepan<span class="token punctuation">.</span><span class="token function">gajian</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+namaBelakang<span class="token punctuation">.</span><span class="token function">gajian</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment">// Hapus komentar dibawah ini (jangan diikutkan di kode)</span>
+<span class="token comment">// Hasilnya seperti berikut</span>
+<span class="token comment">// Selamat! namaDepan, sekarang adalah hari gajianmu! XD :D</span>
+<span class="token comment">// ====================================</span>
+<span class="token comment">// Karena kamu telah bekerja selama 12 bulan</span>
+<span class="token comment">// Dan berperilaku baik</span>
+<span class="token comment">// Maka gajimu adalah Rp. 4450000 rupiah</span>
+<span class="token comment">// ====================================</span>
+
+<span class="token comment">// Selamat! namaBelakang, sekarang adalah hari gajianmu! XD :D</span>
+<span class="token comment">// ====================================</span>
+<span class="token comment">// Karena kamu telah bekerja selama 5 bulan</span>
+<span class="token comment">// Dan berperilaku buruk</span>
+<span class="token comment">// Maka gajimu adalah Rp. 3400000 rupiah</span>
+<span class="token comment">// ====================================</span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br></div></div><p>Kita harus terbiasa dengan error~
+Selamat debugging~</p> <div class="image-wrapper"><!----> <script>
+		var editable = true;
+		var interval = setInterval(function() {
+			if (document.querySelector(&quot;#disqus_thread&quot;) != null) {
+				if (document.querySelector(&quot;#disqus_thread&quot;).clientHeight &gt; 0) {
+					if (editable) {
+						var ads = document.querySelectorAll('[id^=&quot;dsq-app&quot;]')[0];
+						ads.removeAttribute(&quot;style&quot;);
+						ads.style.display = &quot;none&quot;;
+						clearInterval(interval);
+						editable = false;
+					}
+				}
+			}
+		}, 100);
+	</script></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><ThemeManager></ThemeManager><!----><!----></div></div>
+    <script src="/assets/js/app.95d95f24.js" defer></script><script src="/assets/js/2.bc845ed8.js" defer></script><script src="/assets/js/26.e0363a59.js" defer></script><script src="/assets/js/9.3f43ddd9.js" defer></script><script src="/assets/js/16.a8484fd7.js" defer></script><script src="/assets/js/13.bb7bfba6.js" defer></script>
+  </body>
+</html>

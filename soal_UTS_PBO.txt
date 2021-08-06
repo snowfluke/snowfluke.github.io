@@ -1,0 +1,51 @@
+## Soal Ujian Tengah Semester (UTS) Tahun Akademik 2020/2021
+
+Mata Kuliah: Pemrograman Berorientasi Objek
+Prodi: TI A
+Semester: 4 (Genap)
+Dosen: Beny Riswanto, M.Kom
+Sifat Ujian: Praktek
+
+## Petunjuk
+
+1. Membaca doa sebelum mengerjakan soal
+2. Dilarang bekerja sama dalam bentuk apapun dan dengan siapapun
+3. Jujur pada diri sendiri merupakan perilaku akademik mahasiswa
+4. Praktek berdasarkan seluruh materi yang tersedia di menu [OOJS](https://snowfluke.github.io/oojs.html)
+5. File praktek challenge (1-6) dibuat dalam satu folder (rar/zip) beserta file program UTS
+6. File Challenge 5 ditulis menggunakan komentar
+7. File Challenge 6 berbeda dengan file program UTS
+8. Format penamaan file challenge: Nama_ch_noChallenge.js
+Contoh: awalAriansyah_ch_1.js
+9. Format penamaan file program UTS: namaLengkap_nim.js
+Contoh: awalAriansyah_1995520019.js
+10. Total file = 7 file (.js)
+11. Format penamaan folder: UTS_PBO_Nama_NIM.zip
+Contoh: UTS_PBO_AwalAriansyah_195520019.zip
+12. Beri penjelasan kode programmu menggunakan komentar untuk mendapatkan nilai lebih
+13. Kumpulkan file ke link google form yang telah disediakan
+14. Batas Waktu Pengumpulan: 28 April 2021, Pukul 22:00 WIB
+Toleransi 15 Menit
+
+
+## Soal
+
+1. Mengerjakan semua challenge (1-6) sesuai ketentuan [Nilai: 15]
+2. Buatlah sebuah program dengan ketentuan sebagai berikut
+    
+    - Program memiliki latar belakang masalah dan program yang dibuat mampu menyelesaikan masalah tersebut [Nilai: 10]
+    - Program menggunakan konsep Object Oriented Javascript [Nilai: 10]
+    - Beri nama program di bagian atas program menggunakan komentar (//) [Nilai: 5]
+    - Program menggunakan input interrupt (readline-sync) [Nilai: 5]
+    - Program menggunakan konvensi penamaan variable yang tepat  [Nilai: 5]
+    - Program menggunakan perulangan  [Nilai: 10]
+    - Program menggunakan percabangan  [Nilai: 5]
+    - Program memiliki 4 atau lebih operasi tipe data yang berbeda (Misal: Aritmatika, Logika, Perbandingan, Unary dll) [Nilai: 10]
+    - Program memiliki 1 method atau function yang  menerima argumen 3 atau lebih  [Nilai: 5]
+    - Program memiliki 1 method atau function yang memiliki nilai default parameter  [Nilai: 10]
+    - Program menggunakan 4 atau lebih tipe data  [Nilai: 5]
+    - Program menggunakan konkatinasi  [Nilai: 5]
+
+3. Program unik, variable unik, tidak sama dengan yang lain, jika sama maka keseluruhan dari nilai akan dibagi 2
+4. Program dibuat menggunakan bahasa pemrograman Javascript
+5. Kumpulkan latar belakang program dan file pada link berikut: https://forms.gle/8c4ZU5rYL6JDoKqh8
