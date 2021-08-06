@@ -8,6 +8,20 @@
     <link rel="icon" href="/awalLogo.webp">
     <link rel="manifest" href="/manifest.json">
     <script crossorigin="anonymous" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1093260067267168"></script>
+    <script>
+			async function removeSW() {
+				if ('serviceWorker' in navigator) {
+					navigator.serviceWorker.getRegistrations().then(function(registrations) {
+					for(let registration of registrations) {
+						registration.unregister()
+					}}).catch(function(err) {
+						console.log('Service Worker registration failed: ', err);
+					});
+				}
+			}
+
+			removeSW()
+		</script>
     <meta name="description" content="Mengenal lebih jauh tetang function, parameter dan argumen serta cara menangkap input user">
     <meta property="article:published_time" content="2021-04-17T00:00:00.000Z">
     <meta property="og:site_name" content="Awal Ariansyah">
@@ -31,8 +45,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="msapplication-TileColor" content="#000000">
     
-    <link rel="preload" href="/assets/css/0.styles.7927b8b6.css" as="style"><link rel="preload" href="/assets/js/app.95d95f24.js" as="script"><link rel="preload" href="/assets/js/2.bc845ed8.js" as="script"><link rel="preload" href="/assets/js/27.b17b6ae1.js" as="script"><link rel="preload" href="/assets/js/9.3f43ddd9.js" as="script"><link rel="preload" href="/assets/js/16.a8484fd7.js" as="script"><link rel="preload" href="/assets/js/14.c71270e1.js" as="script"><link rel="preload" href="/assets/js/13.bb7bfba6.js" as="script"><link rel="prefetch" href="/assets/js/10.afc65396.js"><link rel="prefetch" href="/assets/js/11.637a401d.js"><link rel="prefetch" href="/assets/js/12.4089d0ff.js"><link rel="prefetch" href="/assets/js/15.3e63a90d.js"><link rel="prefetch" href="/assets/js/17.1f7a5e87.js"><link rel="prefetch" href="/assets/js/18.b3b49442.js"><link rel="prefetch" href="/assets/js/19.3e8c2138.js"><link rel="prefetch" href="/assets/js/20.f4f89b1b.js"><link rel="prefetch" href="/assets/js/21.6d52f87f.js"><link rel="prefetch" href="/assets/js/22.fac3a6f4.js"><link rel="prefetch" href="/assets/js/23.7f43c327.js"><link rel="prefetch" href="/assets/js/24.6f3a0811.js"><link rel="prefetch" href="/assets/js/25.6b552c8f.js"><link rel="prefetch" href="/assets/js/26.e0363a59.js"><link rel="prefetch" href="/assets/js/28.079cb985.js"><link rel="prefetch" href="/assets/js/29.c4aa4ca6.js"><link rel="prefetch" href="/assets/js/3.5c87ac36.js"><link rel="prefetch" href="/assets/js/30.221cf309.js"><link rel="prefetch" href="/assets/js/31.f0c53358.js"><link rel="prefetch" href="/assets/js/32.fed4fac4.js"><link rel="prefetch" href="/assets/js/33.fb0689c5.js"><link rel="prefetch" href="/assets/js/34.89e549b2.js"><link rel="prefetch" href="/assets/js/35.3cce286a.js"><link rel="prefetch" href="/assets/js/36.ba6521b8.js"><link rel="prefetch" href="/assets/js/37.4714c670.js"><link rel="prefetch" href="/assets/js/38.217ad21b.js"><link rel="prefetch" href="/assets/js/4.ca6998b9.js"><link rel="prefetch" href="/assets/js/5.c2182c3f.js"><link rel="prefetch" href="/assets/js/6.42c5670b.js"><link rel="prefetch" href="/assets/js/7.e8e0f007.js"><link rel="prefetch" href="/assets/js/8.42477c16.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.7927b8b6.css">
+    <link rel="preload" href="/assets/css/0.styles.7d0a0fe7.css" as="style"><link rel="preload" href="/assets/js/app.260bc526.js" as="script"><link rel="preload" href="/assets/js/2.d753ac96.js" as="script"><link rel="preload" href="/assets/js/27.0bd4a846.js" as="script"><link rel="preload" href="/assets/js/9.f2b3f6ef.js" as="script"><link rel="preload" href="/assets/js/16.ced3660c.js" as="script"><link rel="preload" href="/assets/js/14.c7443015.js" as="script"><link rel="preload" href="/assets/js/13.906e2b8e.js" as="script"><link rel="prefetch" href="/assets/js/10.ce5c3b22.js"><link rel="prefetch" href="/assets/js/11.3eadb9e0.js"><link rel="prefetch" href="/assets/js/12.8dac16a4.js"><link rel="prefetch" href="/assets/js/15.5aaa6a8e.js"><link rel="prefetch" href="/assets/js/17.a9fd9e29.js"><link rel="prefetch" href="/assets/js/18.d06fc152.js"><link rel="prefetch" href="/assets/js/19.689dcf72.js"><link rel="prefetch" href="/assets/js/20.f681350c.js"><link rel="prefetch" href="/assets/js/21.c6c71a7a.js"><link rel="prefetch" href="/assets/js/22.272f2530.js"><link rel="prefetch" href="/assets/js/23.50ad80fd.js"><link rel="prefetch" href="/assets/js/24.a3b20680.js"><link rel="prefetch" href="/assets/js/25.ec0eb851.js"><link rel="prefetch" href="/assets/js/26.0b5d4f17.js"><link rel="prefetch" href="/assets/js/28.e918d475.js"><link rel="prefetch" href="/assets/js/29.8a2e5f7d.js"><link rel="prefetch" href="/assets/js/3.50e5ee01.js"><link rel="prefetch" href="/assets/js/30.f7e31573.js"><link rel="prefetch" href="/assets/js/31.c08da913.js"><link rel="prefetch" href="/assets/js/32.f767b905.js"><link rel="prefetch" href="/assets/js/33.ca6a497c.js"><link rel="prefetch" href="/assets/js/34.57a990f1.js"><link rel="prefetch" href="/assets/js/35.8a1a8ab1.js"><link rel="prefetch" href="/assets/js/36.573548d5.js"><link rel="prefetch" href="/assets/js/37.28cdf02f.js"><link rel="prefetch" href="/assets/js/38.df70367e.js"><link rel="prefetch" href="/assets/js/4.6ffe456d.js"><link rel="prefetch" href="/assets/js/5.d7716202.js"><link rel="prefetch" href="/assets/js/6.1d9588e7.js"><link rel="prefetch" href="/assets/js/7.9271a534.js"><link rel="prefetch" href="/assets/js/8.4a4e5989.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7d0a0fe7.css">
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/awalLogo.webp" alt="Awal Ariansyah" class="logo"> <span class="site-name can-hide">Awal Ariansyah</span></a> <div class="links"><!----> <div class="user-settings"><a href="#" class="settings-button"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 384 384" xml:space="preserve" class="settings-icon" style="enable-background:new 0 0 384 384;"><path fill="currentColor" d="M192,0C85.973,0,0,85.973,0,192s85.973,192,192,192c17.707,0,32-14.293,32-32c0-8.32-3.093-15.787-8.32-21.44
@@ -40,7 +54,7 @@
 			C384,76.373,298.027,0,192,0z M74.667,192c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S92.373,192,74.667,192z
 			 M138.667,106.667c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S156.373,106.667,138.667,106.667z M245.333,106.667
 			c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S263.04,106.667,245.333,106.667z M309.333,192
-			c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S327.04,192,309.333,192z"></path></svg></a> <div class="user-settings-menu" style="display:none;"><div class="theme-options"><!----> <ul class="color-theme-options"><li><a href="#" class="default-theme"></a></li> <li><a href="#" class="green-theme"></a></li><li><a href="#" class="red-theme"></a></li><li><a href="#" class="yellow-theme"></a></li></ul> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Dark theme</label> <input id="dark-theme-toggle" type="checkbox"></div> <div class="ignore-themes-options toggle-option"><label for="ignore-themes-toggle">Ignore other themes</label> <input id="ignore-themes-toggle" type="checkbox"></div> <!----></div></div></div> <!----> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+			c-17.707,0-32-14.293-32-32s14.293-32,32-32s32,14.293,32,32S327.04,192,309.333,192z"></path></svg></a> <div class="user-settings-menu" style="display:none;"><div class="theme-options"><!----> <ul class="color-theme-options"><li><a href="#" class="default-theme"></a></li> <li><a href="#" class="green-theme"></a></li><li><a href="#" class="red-theme"></a></li><li><a href="#" class="yellow-theme"></a></li></ul> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Mode Gelap</label> <input id="dark-theme-toggle" type="checkbox"></div> <div class="ignore-themes-options toggle-option"><label for="ignore-themes-toggle">Abaikan Tema Lain</label> <input id="ignore-themes-toggle" type="checkbox"></div> <!----></div></div></div> <!----> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
   Beranda
 </a></div><div class="nav-item"><a href="/portfolio.html" class="nav-link">
   Portfolio
@@ -199,22 +213,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 
 <span class="token comment">// Cobalah bereksperimen</span>
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><div class="custom-block tip"><p class="custom-block-title">Browser</p> <p>Apabila kalian menggunakan browser (javascript yang berjalan dengan bantuan HTML), kalian bisa memanfaatkan fungsi <code>prompt()</code> untuk melakukan input interrupt.<br> <code>let nama = prompt(&quot;Masukkan nama kalian&quot;)</code></p></div> <h2 id="challenge"><a href="#challenge" class="header-anchor">#</a> Challenge</h2> <ol><li><p>Jelaskan di kolom komentar, <b>Bagaimana jika sebuah function memiliki 1 parameter namun saat pemanggilan function tersebut tidak ada argumen yang dikirim? Apa yang akan terjadi dan apa penangannannya?</b></p></li> <li><p>Jelaskan apa yang belum kalian mengerti mengenai Javascript/Materi 1 - 5</p></li></ol> <div class="custom-block danger"><p class="custom-block-title">PERHATIAN</p> <p>Jika kalian gagal berkomentar, silahkan refresh browser / clear cache khusus untuk web ini. Atau jika kalian menemukan tulisan biru dibawah, klik <code>segarkan</code></p></div> <p>Silakan dicari, mencantumkan sumber dan merangkai dengan kata-kata/pemahaman sendiri.<br>
-Jangan lupa kode-kode di atas dipraktekan juga!</p> <div class="image-wrapper"><!----> <script>
-		var editable = true;
-		var interval = setInterval(function() {
-			if (document.querySelector(&quot;#disqus_thread&quot;) != null) {
-				if (document.querySelector(&quot;#disqus_thread&quot;).clientHeight &gt; 0) {
-					if (editable) {
-						var ads = document.querySelectorAll('[id^=&quot;dsq-app&quot;]')[0];
-						ads.removeAttribute(&quot;style&quot;);
-						ads.style.display = &quot;none&quot;;
-						clearInterval(interval);
-						editable = false;
-					}
-				}
-			}
-		}, 100);
-	</script></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><ThemeManager></ThemeManager><!----><!----></div></div>
-    <script src="/assets/js/app.95d95f24.js" defer></script><script src="/assets/js/2.bc845ed8.js" defer></script><script src="/assets/js/27.b17b6ae1.js" defer></script><script src="/assets/js/9.3f43ddd9.js" defer></script><script src="/assets/js/16.a8484fd7.js" defer></script><script src="/assets/js/14.c71270e1.js" defer></script><script src="/assets/js/13.bb7bfba6.js" defer></script>
+Jangan lupa kode-kode di atas dipraktekan juga!</p> <div class="image-wrapper"><!----></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.260bc526.js" defer></script><script src="/assets/js/2.d753ac96.js" defer></script><script src="/assets/js/27.0bd4a846.js" defer></script><script src="/assets/js/9.f2b3f6ef.js" defer></script><script src="/assets/js/16.ced3660c.js" defer></script><script src="/assets/js/14.c7443015.js" defer></script><script src="/assets/js/13.906e2b8e.js" defer></script>
   </body>
 </html>
