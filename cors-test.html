@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic CORS Test</title>
+</head>
+<body>
+  <h1>Dynamic CORS Test</h1>
+  
+  <label for="urlInput">Enter URL:</label>
+  <input type="text" id="urlInput" placeholder="http://example.com">
+  
+  <button id="fetchData">Fetch Data</button>
+  
+  <p id="result"></p>
+
+  <script>
+    document.getElementById('fetchData').addEventListener('click', async () => {
+      const url = document.getElementById('urlInput').value;
+
+      if (!url) {
+        document.getElementById('result').textContent = 'Please enter a URL.';
+        return;
+      }
+
+      try {
+        const response = await fetch(url, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          mode: 'cors', // Ensure CORS is enabled
+        });
+
+        if (!response.ok) throw new Error('Network response was not ok');
+
+        const data = await response.text();
+        document.getElementById('result').textContent = data;
+      } catch (error) {
+        document.getElementById('result').textContent = `CORS error: ${error.message}`;
+      }
+    });
+  </script>
+</body>
+</html>
