@@ -59,6 +59,29 @@
   </footer>
 
   <script>
+    // Load saved data from localStorage when page loads
+    window.addEventListener('load', () => {
+      const savedUrl = localStorage.getItem('corsTestUrl');
+      const savedCode = localStorage.getItem('corsTestCode');
+      
+      if (savedUrl) {
+        document.getElementById('urlInput').value = savedUrl;
+      }
+      if (savedCode) {
+        document.getElementById('codeInput').value = savedCode;
+      }
+    });
+
+    // Save URL to localStorage when it changes
+    document.getElementById('urlInput').addEventListener('input', (e) => {
+      localStorage.setItem('corsTestUrl', e.target.value);
+    });
+
+    // Save code to localStorage when it changes
+    document.getElementById('codeInput').addEventListener('input', (e) => {
+      localStorage.setItem('corsTestCode', e.target.value);
+    });
+
     async function performRequest(method) {
       const url = document.getElementById('urlInput').value;
       if (!url) {
