@@ -14,8 +14,34 @@
       flex-direction: column;
       min-height: 100vh;
     }
-    input, button { margin: 10px 0; width: 100%; box-sizing: border-box; }
-    #result { white-space: pre-wrap; background-color: #f0f0f0; padding: 10px; }
+    input, button { margin: 10px 0; width: 100%; box-sizing: border-box; height: 40px; }
+    input { padding: 0 10px; }
+    .button-container { display: flex; gap: 10px; }
+    button { 
+      flex: 1;
+      border: none;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #fetchGet { background-color: #FFA500; }
+    #fetchPost { background-color: #4CAF50; }
+    #status-card {
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .success { background-color: #4CAF50; color: white; }
+    .error { background-color: #F44336; color: white; }
+    #result { 
+      white-space: pre-wrap; 
+      background-color: #f0f0f0; 
+      padding: 10px; 
+      border-radius: 5px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
     footer {
       margin-top: auto;
       text-align: center;
@@ -40,7 +66,7 @@
   <label for="codeInput">Enter code for POST request:</label>
   <input type="password" id="codeInput" placeholder="Enter your code here">
   
-  <div>
+  <div class="button-container">
     <button id="fetchGet">Test GET Request</button>
     <button id="fetchPost">Test POST Request</button>
   </div>
@@ -49,6 +75,8 @@
     <label for="fileInput">Select a file for POST request:</label>
     <input type="file" id="fileInput">
   </div>
+  
+  <div id="status-card" style="display: none;"></div>
   
   <pre id="result"></pre>
   
@@ -80,10 +108,17 @@
       localStorage.setItem('corsTestCode', e.target.value);
     });
 
+    function updateStatusCard(message, isSuccess) {
+      const statusCard = document.getElementById('status-card');
+      statusCard.textContent = message;
+      statusCard.className = isSuccess ? 'success' : 'error';
+      statusCard.style.display = 'block';
+    }
+
     async function performRequest(method) {
       const url = document.getElementById('urlInput').value;
       if (!url) {
-        document.getElementById('result').textContent = 'Please enter a URL.';
+        updateStatusCard('Please enter a URL.', false);
         return;
       }
       const resultElement = document.getElementById('result');
@@ -130,9 +165,11 @@
           formattedResponse = data;
         }
         
-        resultElement.textContent = `${method} request successful. Response:\n${formattedResponse}`;
+        updateStatusCard(`${method} request successful.`, true);
+        resultElement.textContent = formattedResponse;
       } catch (error) {
-        resultElement.textContent = `CORS error: ${error.message}`;
+        updateStatusCard(`CORS error: ${error.message}`, false);
+        resultElement.textContent = '';
       }
     }
     document.getElementById('fetchGet').addEventListener('click', () => performRequest('GET'));
