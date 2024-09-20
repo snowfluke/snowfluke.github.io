@@ -149,7 +149,10 @@
             },
           });
         }
-        if (!response.ok) throw new Error('Network response was not ok');
+        if (!response.ok){ 
+          const responseContent = await response.json();
+          throw new Error(responseContent?.message || 'Network response was not ok')
+        };
         const contentType = response.headers.get('content-type');
         const data = await response.text();
         
@@ -168,7 +171,7 @@
         updateStatusCard(`${method} request successful.`, true);
         resultElement.textContent = formattedResponse;
       } catch (error) {
-        updateStatusCard(`CORS error: ${error.message}`, false);
+        updateStatusCard(`Error: ${error.message}`, false);
         resultElement.textContent = '';
       }
     }
