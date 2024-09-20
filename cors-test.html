@@ -11,7 +11,7 @@
   <label for="urlInput">Enter URL:</label>
   <input type="text" id="urlInput" placeholder="http://example.com">
   
-  <button id="fetchData">Fetch Data</button>
+  <button id="fetchData">Fetch Data To Test CORS</button>
   
   <p id="result"></p>
 
@@ -28,7 +28,8 @@
         const response = await fetch(url, {
           method: 'GET',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'ngrok-skip-browser-warning': '69420'
           },
           mode: 'cors', // Ensure CORS is enabled
         });
