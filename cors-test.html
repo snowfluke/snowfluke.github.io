@@ -14,7 +14,7 @@
       flex-direction: column;
       min-height: 100vh;
     }
-    input, button, textarea { margin: 10px 0; }
+    input, button { margin: 10px 0; width: 100%; box-sizing: border-box; }
     #result { white-space: pre-wrap; background-color: #f0f0f0; padding: 10px; }
     footer {
       margin-top: auto;
@@ -37,6 +37,9 @@
   <label for="urlInput">Enter URL:</label>
   <input type="text" id="urlInput" placeholder="http://example.com">
   
+  <label for="codeInput">Enter code for POST request:</label>
+  <input type="password" id="codeInput" placeholder="Enter your code here">
+  
   <div>
     <button id="fetchGet">Test GET Request</button>
     <button id="fetchPost">Test POST Request</button>
@@ -45,11 +48,6 @@
   <div>
     <label for="fileInput">Select a file for POST request:</label>
     <input type="file" id="fileInput">
-  </div>
-  
-  <div>
-    <label for="codeInput">Enter code for POST request:</label>
-    <textarea id="codeInput" rows="4" cols="50" placeholder="Enter your code here"></textarea>
   </div>
   
   <pre id="result"></pre>
