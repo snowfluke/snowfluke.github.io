@@ -5,9 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dynamic CORS Test</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+    body { 
+      font-family: Arial, sans-serif; 
+      max-width: 800px; 
+      margin: 0 auto; 
+      padding: 20px; 
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
     input, button, textarea { margin: 10px 0; }
     #result { white-space: pre-wrap; background-color: #f0f0f0; padding: 10px; }
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 10px;
+      background-color: #f0f0f0;
+    }
+    footer a {
+      color: #333;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -33,6 +54,10 @@
   
   <pre id="result"></pre>
   
+  <footer>
+    <p>Created by <a href="https://github.com/snowfluke" target="_blank">snowfluke</a></p>
+  </footer>
+
   <script>
     async function performRequest(method) {
       const url = document.getElementById('urlInput').value;
