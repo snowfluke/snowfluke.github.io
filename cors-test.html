@@ -6,7 +6,7 @@
   <title>Dynamic CORS Test</title>
   <style>
     body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-    input, button { margin: 10px 0; }
+    input, button, textarea { margin: 10px 0; }
     #result { white-space: pre-wrap; background-color: #f0f0f0; padding: 10px; }
   </style>
 </head>
@@ -32,7 +32,7 @@
   </div>
   
   <pre id="result"></pre>
-
+  
   <script>
     async function performRequest(method) {
       const url = document.getElementById('urlInput').value;
@@ -40,10 +40,8 @@
         document.getElementById('result').textContent = 'Please enter a URL.';
         return;
       }
-
       const resultElement = document.getElementById('result');
       resultElement.textContent = 'Loading...';
-
       try {
         let response;
         if (method === 'GET') {
@@ -62,7 +60,6 @@
           }
           const code = document.getElementById('codeInput').value;
           formData.append('code', code);
-
           response = await fetch(url, {
             method: 'POST',
             body: formData,
@@ -71,15 +68,27 @@
             },
           });
         }
-
         if (!response.ok) throw new Error('Network response was not ok');
+        const contentType = response.headers.get('content-type');
         const data = await response.text();
-        resultElement.textContent = `${method} request successful. Response:\n${data}`;
+        
+        let formattedResponse;
+        if (contentType && contentType.includes('application/json')) {
+          try {
+            const jsonData = JSON.parse(data);
+            formattedResponse = JSON.stringify(jsonData, null, 2);
+          } catch (e) {
+            formattedResponse = data; // If JSON parsing fails, use the original text
+          }
+        } else {
+          formattedResponse = data;
+        }
+        
+        resultElement.textContent = `${method} request successful. Response:\n${formattedResponse}`;
       } catch (error) {
         resultElement.textContent = `CORS error: ${error.message}`;
       }
     }
-
     document.getElementById('fetchGet').addEventListener('click', () => performRequest('GET'));
     document.getElementById('fetchPost').addEventListener('click', () => performRequest('POST'));
   </script>
