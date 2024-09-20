@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dynamic CORS Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+    input, button { margin: 10px 0; }
+    #result { white-space: pre-wrap; background-color: #f0f0f0; padding: 10px; }
+  </style>
 </head>
 <body>
   <h1>Dynamic CORS Test</h1>
@@ -11,36 +16,72 @@
   <label for="urlInput">Enter URL:</label>
   <input type="text" id="urlInput" placeholder="http://example.com">
   
-  <button id="fetchData">Fetch Data To Test CORS</button>
+  <div>
+    <button id="fetchGet">Test GET Request</button>
+    <button id="fetchPost">Test POST Request</button>
+  </div>
   
-  <p id="result"></p>
+  <div>
+    <label for="fileInput">Select a file for POST request:</label>
+    <input type="file" id="fileInput">
+  </div>
+  
+  <div>
+    <label for="codeInput">Enter code for POST request:</label>
+    <textarea id="codeInput" rows="4" cols="50" placeholder="Enter your code here"></textarea>
+  </div>
+  
+  <pre id="result"></pre>
 
   <script>
-    document.getElementById('fetchData').addEventListener('click', async () => {
+    async function performRequest(method) {
       const url = document.getElementById('urlInput').value;
-
       if (!url) {
         document.getElementById('result').textContent = 'Please enter a URL.';
         return;
       }
 
+      const resultElement = document.getElementById('result');
+      resultElement.textContent = 'Loading...';
+
       try {
-        const response = await fetch(url, {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-            'ngrok-skip-browser-warning': '69420'
-          },
-        });
+        let response;
+        if (method === 'GET') {
+          response = await fetch(url, {
+            method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+              'ngrok-skip-browser-warning': '69420'
+            },
+          });
+        } else if (method === 'POST') {
+          const formData = new FormData();
+          const fileInput = document.getElementById('fileInput');
+          if (fileInput.files.length > 0) {
+            formData.append('file', fileInput.files[0]);
+          }
+          const code = document.getElementById('codeInput').value;
+          formData.append('code', code);
+
+          response = await fetch(url, {
+            method: 'POST',
+            body: formData,
+            headers: {
+              'ngrok-skip-browser-warning': '69420'
+            },
+          });
+        }
 
         if (!response.ok) throw new Error('Network response was not ok');
-
         const data = await response.text();
-        document.getElementById('result').textContent = data;
+        resultElement.textContent = `${method} request successful. Response:\n${data}`;
       } catch (error) {
-        document.getElementById('result').textContent = `CORS error: ${error.message}`;
+        resultElement.textContent = `CORS error: ${error.message}`;
       }
-    });
+    }
+
+    document.getElementById('fetchGet').addEventListener('click', () => performRequest('GET'));
+    document.getElementById('fetchPost').addEventListener('click', () => performRequest('POST'));
   </script>
 </body>
 </html>
